@@ -1,0 +1,42 @@
+{
+  "test_book": "万古江河",
+  "question": "booksearch 里的书源爬虫生效了吗？",
+  "answer": "不生效（当前参数下书源爬虫 5s 整体超时被丢弃，返回空，searchBook 结果全部来自出版物 API）",
+  "root_cause": "BookSourceCrawler 当前参数 maxConcurrentSources=3 + overallTimeout=5s。80 个书源在 3 并发下分成约 27 批串行执行，5s 内跑不完，SearchRace 超时分支 finish([]) 返回空数组。",
+  "evidence": [
+    {
+      "scenario": "当前参数（3 并发 + 5s 整体超时，复刻 BookSourceCrawler.search）",
+      "elapsed_seconds": 5.24,
+      "crawler_result_count": 0,
+      "note": "5s 超时触发，已收集结果被 SearchRace 丢弃"
+    },
+    {
+      "scenario": "对照（16 并发 + 无 5s 硬超时）",
+      "elapsed_seconds": 5.63,
+      "crawler_result_count": 2,
+      "results": [
+        {
+          "title": "万古江河",
+          "author": "许倬云",
+          "provider": "🥥QQ阅读[男频]",
+          "has_intro": true,
+          "has_cover": true
+        },
+        {
+          "title": "万古",
+          "author": "白菜12",
+          "provider": "丁丁小说",
+          "has_intro": true,
+          "has_cover": true
+        }
+      ]
+    }
+  ],
+  "fix": {
+    "maxConcurrentSources": "3 -> 16",
+    "overallTimeout": "5s -> 15s",
+    "explanation": "16 并发下 80 源约 5.6s 跑完并返回结果；15s 留足余量。",
+    "bonus": "SearchRace 超时应返回已收集的部分结果而非空数组（当前 all-or-nothing 会放大慢源拖累）。"
+  },
+  "unit_test": "Project/Rivulet/RivuletTests/BookSourceCrawlerTests.swift 新增 searchBook万古江河_书源与API合并_爬虫优先（mock 验证爬虫结果优先、isbn 保持 nil 不被 API 覆盖）"
+}

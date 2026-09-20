@@ -1,0 +1,4691 @@
+[
+  {
+    "tocCount" : 0,
+    "name" : "💰起点中文",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.qidian.com##分类",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰黑岩阅读",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.heiyan.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰多看阅读",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dkmi.com\/#wenmoux",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰纵横中文",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.zongheng.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰飞卢小说",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/b.faloo.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰百里中文",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.bailizw.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰晋江文学",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.jjwxc.net",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "⭐️ 企鹅阅读",
+    "group" : "⭐️ API",
+    "introLen" : 0,
+    "searchCount" : 20,
+    "url" : "https:\/\/bookshelf.html5.qq.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🎉 阅友小说",
+    "group" : "🎉 精选",
+    "introLen" : 0,
+    "searchCount" : 5,
+    "url" : "https:\/\/sma.yueyouxs.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰宜搜小说",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/api.ieasou.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "⭐ 七猫小说",
+    "group" : "⭐️ API",
+    "introLen" : 0,
+    "searchCount" : 10,
+    "url" : "https:\/\/api-bc.wtzw.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 1077,
+    "name" : "⭐ 酷我小说",
+    "group" : "⭐️ API",
+    "introLen" : 316,
+    "searchCount" : 30,
+    "url" : "http:\/\/appi.kuwo.cn",
+    "tier" : 4
+  },
+  {
+    "tocCount" : 0,
+    "name" : "⭐ 猫眼看书",
+    "group" : "⭐️ API",
+    "introLen" : 0,
+    "searchCount" : 15,
+    "url" : "http:\/\/api.lemiyigou.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰书旗小说",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/t.shuqi.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💠 望书阁网",
+    "group" : "💠 综合",
+    "introLen" : 50,
+    "searchCount" : 100,
+    "url" : "http:\/\/wap.wangshugu.org",
+    "tier" : 3
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💐 ＵＣ书库",
+    "group" : "💐 女频",
+    "introLen" : 0,
+    "searchCount" : 50,
+    "url" : "http:\/\/m.shukuge.org",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰豆瓣阅读",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/read.douban.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰磨铁中文",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/app2.motie.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰柠檬小说",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.lemonyd.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "有度中文",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.yodu.org",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "小米阅读",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/reader.browser.miui.com\/v2",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "番茄小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/api5-normal-lf.fqnovel.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰息壤中文",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/pre-api.xrzww.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "七猫小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 10,
+    "url" : "https:\/\/api-bc.wtzw.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰有毒小说",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/pre-api.youdubook.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰红薯阅读",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/androidv2.hongshu.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 225,
+    "name" : "得间小说",
+    "group" : "常用",
+    "introLen" : 103,
+    "searchCount" : 20,
+    "url" : "https:\/\/wechat.idejian.com",
+    "tier" : 4
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰塔读小说",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 30,
+    "url" : "https:\/\/www.tadu.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "飞速中文",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.feibzw.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰铁血读书",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/androidapi.junshishu.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "独步小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dubuxiaoshuo.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰长河阅读",
+    "group" : "💰正版💰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/changheapi.chzww.cn",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "西瓜小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/xgmf.zuanqianyi.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "阅友小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/goway.reader.yueyouxs.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "趣悦小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/vreader.vivo.com.cn\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "酷匠阅读",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/app.kujiang.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "花生小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/api.wan123x.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "17k小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/api.17k.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "米读小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/api.midukanshu.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "淘小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 10,
+    "url" : "https:\/\/tybook.taoyuewenhua.net\/",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "酷我小说",
+    "group" : "常用",
+    "introLen" : 278,
+    "searchCount" : 30,
+    "url" : "http:\/\/appi.kuwo.cn\/novels\/api\/book",
+    "tier" : 3
+  },
+  {
+    "tocCount" : 0,
+    "name" : "青羽阅读",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/api.kuduwxw.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "基友书屋",
+    "group" : "常用",
+    "introLen" : 107,
+    "searchCount" : 18,
+    "url" : "https:\/\/www.gaysay.com",
+    "tier" : 3
+  },
+  {
+    "tocCount" : 0,
+    "name" : "全本小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 78,
+    "url" : "http:\/\/119.45.176.116:5006",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "爱读书",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ixpsge.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "番薯小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/ggs.manmeng168.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "熬夜看书",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/get.aoyekanshu.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "爱青果",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/api-new.iqingguo.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "第一小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.diyitxt.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "八一中文",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.blxs.la\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "闪舞小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.35xss.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "全免小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 10,
+    "url" : "http:\/\/qmbook.taoyuewenhua.net\/",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "小书亭",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 15,
+    "url" : "http:\/\/app.1001p.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "灯读文学",
+    "group" : "常用",
+    "introLen" : 23,
+    "searchCount" : 5,
+    "url" : "https:\/\/s30007.zhongyue001.com",
+    "tier" : 3
+  },
+  {
+    "tocCount" : 0,
+    "name" : "三优小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.3ubook.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "疯读极速版",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/fiction.fengduxiaoshuo.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "磨铁免费",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/api.motie.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "中文万维",
+    "group" : "常用",
+    "introLen" : 127,
+    "searchCount" : 20,
+    "url" : "http:\/\/cread.com",
+    "tier" : 3
+  },
+  {
+    "tocCount" : 0,
+    "name" : "九七阅读",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.97yd.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "小说云",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/api.xiaoshuoyun.cn",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "歌书网",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/m.gashuw.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "达文小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.dawensk.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "UU小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.uuxs.info\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "趣读小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.qqduw.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💠 UAA 文学001",
+    "group" : "💠 综合",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.uaa001.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "UU小說",
+    "group" : "",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "去789",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "爱读书",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ixpsge.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "暑期小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/m.shuqixs.cc",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "求小说网",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.81ht.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "爱看小说",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.ai9w.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "天天看书",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/cn.ttkan.co",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "非凡看书",
+    "url" : "https:\/\/www.feifanks.com",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "格格党小说 ",
+    "group" : "test",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.alshuan.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "3A小说",
+    "group" : "🎉 精选",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.aaawz.cc",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 50,
+    "name" : "望书阁网",
+    "group" : "常用",
+    "introLen" : 71,
+    "searchCount" : 100,
+    "url" : "http:\/\/wap.wangshuge.la",
+    "tier" : 4
+  },
+  {
+    "tocCount" : 0,
+    "name" : "蚂蚁阅读",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.xmayitxt.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "八一中文",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.zwduxs.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "就爱文学",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.92wx.la",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "蚂蚁文学",
+    "group" : "常用",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.mayiwxw.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 99999,
+    "name" : "就爱读小说网",
+    "group" : "常用",
+    "introLen" : 82,
+    "searchCount" : 15,
+    "url" : "https:\/\/m.92dxs.org",
+    "tier" : 4
+  },
+  {
+    "tocCount" : 0,
+    "name" : "ESJ Zone@zone",
+    "group" : "good,轻小说",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.esjzone.one\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "轻小说机翻机器人",
+    "group" : "轻小说",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/n.novelia.cc",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🐣爱丽丝书屋",
+    "group" : "18",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.alicesw.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🔖UAA🔖融合",
+    "group" : "uaa",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "🔖UAA🔖",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "群U聚合",
+    "group" : "析",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/jican.x7go.top",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "耽美小说网",
+    "group" : "",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.blxsw.cc",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🎶魔音-MORIN",
+    "group" : "☃ 自用☃️",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "魔音-MORIN",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "🧁轻文库小说",
+    "url" : "轻文库小说",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "笔趣阁[boquku.com].MU",
+    "group" : "✦优",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/m.boquku.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "卧龙小说",
+    "group" : "",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.wolongxs.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "全本小说",
+    "group" : "自写的",
+    "introLen" : 0,
+    "searchCount" : 50,
+    "url" : "https:\/\/quanben-xiaoshuo.com",
+    "tier" : 1
+  },
+  {
+    "tier" : 0,
+    "name" : "🎉 全本小说网",
+    "url" : "全本小说网",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "漫蛙",
+    "group" : "图片源练手",
+    "introLen" : 0,
+    "searchCount" : 20,
+    "url" : "https:\/\/www.manwaku.com\/",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "骑士小说",
+    "group" : "免费小说",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.74txts.com",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "小说精华阁",
+    "url" : "https:\/\/www.babahome.net",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "顶点小说",
+    "group" : "醉予",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dingdian888.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "书听FM",
+    "group" : "学习",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.shuyinfm.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🍉 聚合书源 - 没有你想要的",
+    "group" : "☃ 自用☃️",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "❤️ 聚合书源 ❤️",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🍅番茄小说 - [☆星眠☆]",
+    "group" : "🍅番茄免费小说☃️,☃ 自用☃️",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "🍅",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "果文学网",
+    "group" : "更新",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.guowx.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "新笔趣阁",
+    "group" : "网文",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.biquges123.com",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "学外漫画",
+    "url" : "https:\/\/www.xwmanhua.com",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "西瓜看书",
+    "url" : "https:\/\/www.xiguaks.com",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "第一版主网",
+    "url" : "https:\/\/m.diyibanzhu2.online\/",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "霹雳书坊",
+    "url" : "https:\/\/www.pilisf.com\/",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "奇漫屋",
+    "group" : "🎨",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.qimanwu.app",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "八一.mu",
+    "url" : "http:\/\/m.youdian5.com\/",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "ryw笔趣阁78",
+    "group" : "ryw",
+    "introLen" : 325,
+    "searchCount" : 100,
+    "url" : "https:\/\/www.biquge78.cc",
+    "tier" : 3
+  },
+  {
+    "tocCount" : 0,
+    "name" : "冷冷文学",
+    "group" : "星辰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www7.lenglengbb.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "笔下文学",
+    "group" : "星辰",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.bxwxw7.com",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "18笔趣阁",
+    "url" : "https:\/\/www.bqgns.com",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "笔趣阁70",
+    "group" : "自写的",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "笔趣阁70",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "📖Lofter",
+    "url" : "https:\/\/newsmiss.lofter.com",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "（favcomic）喜漫漫画",
+    "url" : "https:\/\/www.favcomic.net",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "ESJ Zone@zone",
+    "group" : "源仓库,good,轻小说",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.esjzone.cc\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "希望中文",
+    "group" : "常用◎",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.5xw.net",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "英文小说网",
+    "group" : "源仓库,英文",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.yingyuxiaoshuo.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "过期杂志",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 150,
+    "url" : "https:\/\/www.52dzxy.com\/",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "novelnext(English Novels)",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/novelnext.net",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "无限电子书",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.wxdzs.net\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "😍轻写真",
+    "group" : "😍",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.635k.com\/##@Mengteen",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "83中文S",
+    "url" : "https:\/\/www.83zws.com",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "po18文学壬二酸",
+    "group" : "联通可直连,源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.po18co.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "风行.MU",
+    "group" : "源仓库,✦优",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/fxxs3.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "完本小说网",
+    "group" : "源仓库,网络,自制",
+    "introLen" : 0,
+    "searchCount" : 18,
+    "url" : "https:\/\/www.finalbooks.work",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "千凡小说",
+    "group" : "源仓库,自写的",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.qfxs123.com\/",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "中华典藏",
+    "url" : "https:\/\/www.diancang.xyz\/",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "幻想小说网 ",
+    "group" : "无防盗",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.huanxiangxs.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "G社漫画\/包子漫画",
+    "group" : "源仓库,包子漫画,漫画",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/manhuafree.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "书耽【验证码】",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/app.shubl.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "小説家になろう",
+    "group" : "源仓库,轻小说",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/syosetu.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🍒书旗小说",
+    "group" : "月月书源,源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.shuqi.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🍒程袁书吧",
+    "group" : "月月书源,源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "祝你们天天开心",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "哔哩轻",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "哔哩轻",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "国学汉籍",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.gxhj.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "齐鲁文学(修复正文下一页)",
+    "group" : "源仓库,-自制,✨极速",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.qiluwx.com#测试",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "奈奈",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.nncos.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🍒手机小说",
+    "group" : "月月书源,源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.shoujixs.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "平板电子书网",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/wap.qiqixs.info\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🍒思兔阅读",
+    "group" : "源仓库,🍒精选❶",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/sto55.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "52书库1",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.52shukuw.cc",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "鸟鸟韩漫",
+    "group" : "源仓库,漫画",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/nnhanman9.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "18mh",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.18mh.net",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "漫画鱼",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.manhuayu8.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "豆瓣小组",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "豆瓣小组",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "时代音乐网",
+    "group" : "源仓库,音乐",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.78497.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "轻小说机翻机器人",
+    "group" : "源仓库,轻小说",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/books.fishhawk.top",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "潇湘书院",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.xxsy.net\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "兔九三🐰",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.tu93.org",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "笔趣阁",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.yuyouku.com\/#xsw8093",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "武芊漫画",
+    "group" : "源仓库,漫画 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/comic.mkzcdn.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "齐鲁文学",
+    "group" : "源仓库,-自制,✨极速",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.qiluwx.com##测试",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "名著阅读（优）",
+    "group" : "源仓库,漫画 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/api.520diandu.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🍒小说狂人",
+    "group" : "源仓库,🍒精选❶",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/czbooks.net\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "森林ᵐᵘ -",
+    "group" : "✦优",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/23.224.242.55\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "笔趣阁",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.biquge345.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🍒大美书网",
+    "group" : "月月书源,源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dameishuwang.net\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💮新天禧小说",
+    "group" : "月月书源,源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.tianxibook.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "青豆小说网",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.jdzwo.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "西瓜小说",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.pdske.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🌸猫眼看书",
+    "group" : "月月书源,源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/api.lfdapengu.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "爱发电（导入前请备份好自己的发现规则，登录直接点登录，填账号密码，不要改登录规则里的东西，阅读升级最新版，网站只能搜作者）",
+    "group" : "源仓库,登录UI",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/afdian.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "AO3-3",
+    "group" : "ao3,源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/archiveofourown.org",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "可乐小说",
+    "url" : "https:\/\/www.kelexs.com",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "七猫小说（优+）",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 10,
+    "url" : "https:\/\/api-bc.wtzw.com\/",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "哎呦文学",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.auwxw.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "明智屋吧",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.mingzw.net",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "爱爱中文网",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.i25zw.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "酷酷看书网",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.kuku3.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "无限小说网",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/wuxianbook.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "凡人小说",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/wap.washuwx.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "明智屋",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.mingzw.net\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "22笔趣阁",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.22biqu.net",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "不格小说",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.bugexs.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "全本小说quanben",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.quanben.io",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "笔趣阁biquge365",
+    "group" : "源仓库,自写0510",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.biquge365.net\/",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "起点中文",
+    "url" : "https:\/\/www.qidian.com",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "📚豆瓣阅读",
+    "group" : "⑦📚  出版",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/read.douban.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "阅友小说",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/sma.yueyouxs.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "同人小说（自制）",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/tongren.faloo.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "纵横中文网api[搜书专用]",
+    "group" : "源仓库,自写1003",
+    "introLen" : 0,
+    "searchCount" : 20,
+    "url" : "https:\/\/www.zongheng.com\/##zhbyjm7783",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "宜搜小说（优）",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 20,
+    "url" : "https:\/\/api.ieasou.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "爱下小说（优）",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/apiv2hans.aixdzs.com##@尐哖",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "画本阅读（优）",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 30,
+    "url" : "https:\/\/so.ihuaben.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "中文万维（优）",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 127,
+    "searchCount" : 20,
+    "url" : "http:\/\/cread.com#",
+    "tier" : 3
+  },
+  {
+    "tocCount" : 0,
+    "name" : "噼里啪啦（优）",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.biqugeabc.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "中华诗词（优）",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.zhonghuashici.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "无奈书库",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.52shuku123.org",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "六六影视（优）",
+    "group" : "源仓库,影视 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/66yy.net",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "爱搬文屋",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.banwenwu.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "纵横中文网",
+    "group" : "源仓库,_By-曦灵",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.zongheng.com\/",
+    "tier" : 0
+  },
+  {
+    "tier" : 0,
+    "name" : "独步小说网",
+    "url" : "https:\/\/www.dbxsd.com\/",
+    "introLen" : 0,
+    "tocCount" : 0,
+    "searchCount" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "晋江",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "绿色 和谐",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "💰 飞卢小说",
+    "group" : "源仓库,💰 正版",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/wap.faloo.com",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "九怀小说",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.jiuhuaiwenxue.com#",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🏷晋江文学（个人自用）",
+    "group" : "源仓库,💰 正版",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.jjwxc.net\/channel\/#修改版",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "七猫小说",
+    "group" : "源仓库,小说 书源",
+    "introLen" : 0,
+    "searchCount" : 10,
+    "url" : "https:\/\/api-bc.wtzw.com#yc1101b",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "🐼 松鹤庭沐🕸",
+    "group" : "源仓库,💰 正版",
+    "introLen" : 0,
+    "searchCount" : 20,
+    "url" : "https:\/\/so.html5.qq.com",
+    "tier" : 1
+  },
+  {
+    "tocCount" : 0,
+    "name" : "优品幻灯",
+    "group" : "特殊 书源,源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ypppt.com\/",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "言情小说吧",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.xs8.cn",
+    "tier" : 0
+  },
+  {
+    "tocCount" : 0,
+    "name" : "潇湘书院",
+    "group" : "源仓库",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.xxsy.net",
+    "tier" : 0
+  },
+  {
+    "name" : "手机看书",
+    "introLen" : 0,
+    "searchCount" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "url" : "https:\/\/www.sjks88.com#",
+    "tier" : 0
+  },
+  {
+    "name" : "南极小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "🐧",
+    "tier" : 0
+  },
+  {
+    "name" : "抖音小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.douyinxs.com",
+    "tier" : 0
+  },
+  {
+    "name" : "贼子网吧（导入）",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.zei8.vip",
+    "tier" : 0
+  },
+  {
+    "name" : "企鹅浏览",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 21,
+    "url" : "novel.html5.qq.com",
+    "tier" : 1
+  },
+  {
+    "name" : "趣书网吧",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.qubook.org##旅途",
+    "tier" : 0
+  },
+  {
+    "name" : "独步小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dbxsd.com",
+    "tier" : 0
+  },
+  {
+    "name" : "QQ阅读[网页]",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/book.qq.com\/",
+    "tier" : 0
+  },
+  {
+    "name" : "晋江🔸阅读",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.jjwxc.net\/channel\/index\/",
+    "tier" : 0
+  },
+  {
+    "name" : "黑岩小说①",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.heiyan.com\/",
+    "tier" : 0
+  },
+  {
+    "name" : "QQ阅读",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/book.qq.com",
+    "tier" : 0
+  },
+  {
+    "name" : "黑岩阅读",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.heiyan.com#pb1101",
+    "tier" : 0
+  },
+  {
+    "name" : "飞卢小说",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/wap.faloo.com\/",
+    "tier" : 0
+  },
+  {
+    "name" : "晋江文学1",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/android.jjwxc.net\/",
+    "tier" : 0
+  },
+  {
+    "name" : "●QB男生<qq♛",
+    "introLen" : 0,
+    "group" : "📶 榜单 (自行启用）,源仓库",
+    "tocCount" : 0,
+    "searchCount" : 20,
+    "url" : "DragonQuestQBall",
+    "tier" : 1
+  },
+  {
+    "name" : "若初文学",
+    "introLen" : 0,
+    "group" : "源仓库,📚 出版",
+    "tocCount" : 0,
+    "searchCount" : 20,
+    "url" : "http:\/\/www.ruochu.com\/",
+    "tier" : 1
+  },
+  {
+    "name" : "📗阅友小说",
+    "introLen" : 0,
+    "group" : "源仓库",
+    "tocCount" : 0,
+    "searchCount" : 5,
+    "url" : "http:\/\/m.suixkan.com\/",
+    "tier" : 1
+  },
+  {
+    "name" : "七猫小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 10,
+    "url" : "https:\/\/api-bc.wtzw.com##",
+    "tier" : 1
+  },
+  {
+    "name" : "爱随心看",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 5,
+    "url" : "http:\/\/m.suixkan.com",
+    "tier" : 1
+  },
+  {
+    "name" : "爱看书网（优）",
+    "introLen" : 127,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 20,
+    "url" : "https:\/\/cxb-pro.cread.com",
+    "tier" : 3
+  },
+  {
+    "name" : "🌠 漫画吧网",
+    "introLen" : 0,
+    "group" : "源仓库,🌠图源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.manhuaba.com\/",
+    "tier" : 0
+  },
+  {
+    "name" : "人文书库",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.rwsk2.com",
+    "tier" : 0
+  },
+  {
+    "name" : "🍁笔趣阁⑪⓪",
+    "introLen" : 0,
+    "group" : "源仓库,📝 笔趣阁",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.yuyouge.com",
+    "tier" : 0
+  },
+  {
+    "name" : "阅友小说",
+    "introLen" : 0,
+    "group" : "源仓库,📖 小说",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/sma.yueyouxs.com\/#pb1101",
+    "tier" : 0
+  },
+  {
+    "name" : "黑岩小说②[w2]",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/w2.heiyan.com\/",
+    "tier" : 0
+  },
+  {
+    "name" : "㊣黑岩阅读 #破冰",
+    "introLen" : 0,
+    "group" : "源仓库,[小说源]",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.heiyan.com#♤pb",
+    "tier" : 0
+  },
+  {
+    "name" : "绾书文学",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/api.wanshu.com#yc1101",
+    "tier" : 0
+  },
+  {
+    "name" : "黑岩阅读",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.heiyan.com#♤yc",
+    "tier" : 0
+  },
+  {
+    "name" : "飞卢小说",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/wap.faloo.com#yc1101",
+    "tier" : 0
+  },
+  {
+    "name" : "飞卢小说",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/wap.faloo.com#♤yc",
+    "tier" : 0
+  },
+  {
+    "name" : "爱看书吧",
+    "introLen" : 0,
+    "group" : "源仓库,📖 小说",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/cxb-pro.cread.com#Haxc",
+    "tier" : 0
+  },
+  {
+    "name" : "黑岩小说#玄奇",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.heiyan.com#玄奇21.0202",
+    "tier" : 0
+  },
+  {
+    "name" : "阅友网络",
+    "introLen" : 0,
+    "group" : "源仓库,📖 小说",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/goway.reader.yueyouxs.com",
+    "tier" : 0
+  },
+  {
+    "name" : "阅友小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/m.yueyouxs.com\/",
+    "tier" : 0
+  },
+  {
+    "name" : "若初文学",
+    "introLen" : 0,
+    "group" : "破冰&一程,源仓库",
+    "tocCount" : 0,
+    "searchCount" : 20,
+    "url" : "http:\/\/search.ruochu.com",
+    "tier" : 1
+  },
+  {
+    "name" : "全免小说（优）",
+    "introLen" : 594,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 10,
+    "url" : "http:\/\/qmbook.taoyuewenhua.net\/##@遇知",
+    "tier" : 3
+  },
+  {
+    "name" : "●QB女生<kd♛",
+    "introLen" : 0,
+    "group" : "📶 榜单 (自行启用）,源仓库",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "DragonQuestQBkd1",
+    "tier" : 0
+  },
+  {
+    "name" : "炎上书屋",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/book.zri.moe\/##zhbyjm7783",
+    "tier" : 0
+  },
+  {
+    "name" : "太极书吧",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/69shux.co",
+    "tier" : 0
+  },
+  {
+    "name" : "多看阅读",
+    "introLen" : 0,
+    "group" : "源仓库,正版小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.duokan.com",
+    "tier" : 0
+  },
+  {
+    "name" : "QQ阅读",
+    "introLen" : 0,
+    "group" : "源仓库,正版小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/book.qq.com\/##闫",
+    "tier" : 0
+  },
+  {
+    "name" : "阅友小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/goway.reader.yueyouxs.com#",
+    "tier" : 0
+  },
+  {
+    "name" : "黑岩小说",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/w2.heiyan.com",
+    "tier" : 0
+  },
+  {
+    "name" : "SF轻小说",
+    "introLen" : 0,
+    "group" : "源仓库,🎈 轻文",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "book.sfacg.com",
+    "tier" : 0
+  },
+  {
+    "name" : "话本小说（优）",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ihuaben.com",
+    "tier" : 0
+  },
+  {
+    "name" : "话本小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ihuaben.com\/",
+    "tier" : 0
+  },
+  {
+    "name" : "万层中文",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源,校验超时",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.oneceng.com\/##jjj",
+    "tier" : 0
+  },
+  {
+    "name" : "事貓小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 10,
+    "url" : "https:\/\/api-bc.wtzw.com#md",
+    "tier" : 1
+  },
+  {
+    "name" : "百度小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/novelapi.baidu.com",
+    "tier" : 0
+  },
+  {
+    "name" : "猫耳听书",
+    "introLen" : 0,
+    "group" : "听书 书源,源仓库",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.missevan.com",
+    "tier" : 0
+  },
+  {
+    "name" : "书旗小说",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/t.shuqi.com",
+    "tier" : 0
+  },
+  {
+    "name" : "🎉 QQ浏览器",
+    "introLen" : 0,
+    "group" : "源仓库,🎉 精选",
+    "tocCount" : 0,
+    "searchCount" : 21,
+    "url" : "https:\/\/novel.html5.qq.com",
+    "tier" : 1
+  },
+  {
+    "name" : "🥥QQ阅读[男频]",
+    "introLen" : 142,
+    "group" : "🥥正版,源仓库",
+    "tocCount" : 50,
+    "searchCount" : 20,
+    "url" : "https:\/\/ubook.reader.qq.com\/",
+    "tier" : 4
+  },
+  {
+    "name" : "神话之后",
+    "introLen" : 1955,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 20,
+    "url" : "https:\/\/www.shenhuazhihou.com",
+    "tier" : 3
+  },
+  {
+    "name" : "就爱言情",
+    "introLen" : 0,
+    "group" : "源仓库,小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/m.92yanqing.com",
+    "tier" : 0
+  },
+  {
+    "name" : "多看阅读",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dkmi.com\/",
+    "tier" : 0
+  },
+  {
+    "name" : "安轻小说",
+    "introLen" : 0,
+    "group" : "源仓库,正版小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/book.sfacg.com",
+    "tier" : 0
+  },
+  {
+    "name" : "💰 黑岩小说",
+    "introLen" : 0,
+    "group" : "源仓库,💰 正版",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "http:\/\/www.heiyan.com",
+    "tier" : 0
+  },
+  {
+    "name" : "黑岩阅读",
+    "introLen" : 0,
+    "group" : "破冰&一程,源仓库",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.heiyan.com",
+    "tier" : 0
+  },
+  {
+    "name" : "多看阅读",
+    "introLen" : 0,
+    "group" : "源仓库,正版小说 书源",
+    "tocCount" : 0,
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dkmi.com",
+    "tier" : 0
+  },
+  {
+    "group" : "网络,自制",
+    "tier" : 0,
+    "name" : "群小说",
+    "url" : "https:\/\/www.qunxs.com",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,整理检验,自制,网页源",
+    "tier" : 0,
+    "name" : "群小说网",
+    "url" : "http:\/\/www.qunxs.com",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 1,
+    "name" : "🌕 ＱＱ阅读",
+    "url" : "https:\/\/bookshelf.html5.qq.com",
+    "searchCount" : 20,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "纵横中文",
+    "url" : "https:\/\/m.zongheng.com",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,11.15精选书源",
+    "tier" : 0,
+    "name" : "🌙 趣悦免费小说",
+    "url" : "https:\/\/vreader.vivo.com.cn\/",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 1,
+    "name" : "💰若初文学",
+    "url" : "http:\/\/www.ruochu.com",
+    "searchCount" : 20,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,11.15精选书源",
+    "tier" : 1,
+    "name" : "🌙 松庭鹤沐",
+    "url" : "DQuestQBall",
+    "searchCount" : 20,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "🐳 有声 🐳,源仓库",
+    "tier" : 1,
+    "name" : "🎧 猫耳FM(无发现)",
+    "url" : "https:\/\/www.missevan.com#",
+    "searchCount" : 30,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "天堂深圳",
+    "url" : "http:\/\/tiantangxiangzuoshenzhenwangyou.qwyd.net",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "猫眼看书",
+    "url" : "http:\/\/api.jmlldsc.com",
+    "searchCount" : 15,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "望书阁网",
+    "url" : "http:\/\/wap.wangshugu.net",
+    "searchCount" : 100,
+    "introLen" : 50,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,11.15精选书源",
+    "tier" : 0,
+    "name" : "🛸得间小说⭐",
+    "url" : "https:\/\/m.idejian.com#渊呀",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,典藏",
+    "tier" : 0,
+    "name" : "💰 书耽[搜索]",
+    "url" : "https:\/\/www.shubl.com#",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,[小说源]",
+    "tier" : 0,
+    "name" : "💫绾书文学网",
+    "url" : "http:\/\/app.wanshu.com:80",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,🌸 常用",
+    "tier" : 0,
+    "name" : "晋江文学",
+    "url" : "https:\/\/m.jjwxc.net\/free",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "特殊 书源,源仓库",
+    "tier" : 0,
+    "name" : "海词词典（词典）",
+    "url" : "http:\/\/dict.cn\/",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "My176",
+    "url" : "http:\/\/b.zhuishushenqi.com",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "💠晋江",
+    "url" : "晋江纯爱\/无cp标签",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "音乐 书源,源仓库",
+    "tier" : 0,
+    "name" : "音乐-网易",
+    "url" : "http:\/\/music.163.com#芜恙",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "音乐 书源,源仓库",
+    "tier" : 0,
+    "name" : "音乐-荔枝",
+    "url" : "https:\/\/m.lizhi.fm",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "笔趣阁",
+    "url" : "http:\/\/www.yuyougu.com\/#♤pb",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "话本小说",
+    "url" : "http:\/\/www.ihuaben.com",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "全本小说",
+    "url" : "http:\/\/119.45.176.116:5006\/",
+    "searchCount" : 78,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "请看小说（导入）",
+    "url" : "https:\/\/www.qinkan.net",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "同创文学",
+    "url" : "http:\/\/www.tcwxx.com\/",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,🍒精选❶",
+    "tier" : 0,
+    "name" : "🍒桔纸书屋",
+    "url" : "https:\/\/m.juzhishuwu.com\/",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "🍌 男频,源仓库",
+    "tier" : 0,
+    "name" : "豆腐文学",
+    "url" : "https:\/\/www.doufu.me\/",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,🎈 轻文",
+    "tier" : 0,
+    "name" : "SF轻小说",
+    "url" : "https:\/\/book.sfacg.com\/",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "多看阅读",
+    "url" : "https:\/\/www.duokan.com\/",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "行轻小说",
+    "url" : "http:\/\/s.sfacg.com",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "📻 有声,skybbk修复,源仓库",
+    "tier" : 0,
+    "name" : "📻 酷我音乐",
+    "url" : "https:\/\/www.kuwo.cn",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库",
+    "tier" : 0,
+    "name" : "中文看",
+    "url" : "http:\/\/wap.zwkan.cc",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "阅友小说",
+    "url" : "https:\/\/goway.reader.yueyouxs.com\/",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "📜 晋江",
+    "url" : "http:\/\/app.jjwxc.org",
+    "searchCount" : 0,
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,🌟 api",
+    "tier" : 0,
+    "name" : "追书神器",
+    "searchCount" : 0,
+    "url" : "http:\/\/b.zhuishushenqi.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "特殊 书源,源仓库",
+    "tier" : 0,
+    "name" : "海词精选（海词）",
+    "searchCount" : 0,
+    "url" : "http:\/\/dict.cn",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "若夏网网",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.ruoxia.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "七猫小说（优）",
+    "searchCount" : 10,
+    "url" : "https:\/\/api-bc.wtzw.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "手机看书",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.sjks88.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,🌸 常用",
+    "tier" : 0,
+    "name" : "🍺 绾书文学网",
+    "searchCount" : 0,
+    "url" : "http:\/\/app.wanshu.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 4,
+    "name" : "安轻小说",
+    "searchCount" : 12,
+    "url" : "https:\/\/minipapi.sfacg.com",
+    "introLen" : 244,
+    "tocCount" : 6
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "奇书网网",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.xqishuta.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,[小说源]",
+    "tier" : 0,
+    "name" : "📖 靠谱小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.kptxt.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "📚 黑岩网站",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.heiyan.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "红薯网站",
+    "searchCount" : 0,
+    "url" : "https:\/\/g.hongshu.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "🍌 男频,源仓库",
+    "tier" : 0,
+    "name" : "豆腐阅读",
+    "searchCount" : 0,
+    "url" : "http:\/\/api.doufu.me",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "爱看书吧",
+    "searchCount" : 0,
+    "url" : "https:\/\/cxb-pro.cread.com#芜恙",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "阅友小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/sma.yueyouxs.com\/#♤pb",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 1,
+    "name" : "若初文学",
+    "searchCount" : 20,
+    "url" : "http:\/\/www.ruochu.com#yc1101",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "若初文学",
+    "searchCount" : 20,
+    "url" : "http:\/\/www.ruochu.com#嘚嘚21.0201",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,🎈 轻小说",
+    "tier" : 0,
+    "name" : "SF轻小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.sfacg.com#南笙21.0101",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "阅友小说",
+    "searchCount" : 5,
+    "url" : "https:\/\/sma.yueyouxs.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,检验",
+    "tier" : 0,
+    "name" : "刺猬猫备用",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.ciweimao.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,🎈 轻小说",
+    "tier" : 4,
+    "name" : "日轻小说",
+    "searchCount" : 12,
+    "url" : "https:\/\/api.sfacg.com\/",
+    "introLen" : 244,
+    "tocCount" : 6
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "话本小说",
+    "searchCount" : 30,
+    "url" : "https:\/\/so.ihuaben.com\/search?keyword",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库",
+    "tier" : 1,
+    "name" : "QQ浏览器",
+    "searchCount" : 21,
+    "url" : "https:\/\/so.html5.qq.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "中文万维（优）",
+    "searchCount" : 20,
+    "url" : "http:\/\/cread.com\/",
+    "introLen" : 127,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 1,
+    "name" : "企鹅浏览",
+    "searchCount" : 21,
+    "url" : "https:\/\/novel.html5.qq.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "爱看书网",
+    "searchCount" : 20,
+    "url" : "https:\/\/cxb-pro.cread.com\/",
+    "introLen" : 127,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "书法轻说",
+    "searchCount" : 0,
+    "url" : "https:\/\/book.sfacg.com#♤yc",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,🎈 轻小说",
+    "tier" : 0,
+    "name" : "轻小说吧",
+    "searchCount" : 0,
+    "url" : "https:\/\/book.sfacg.com#yc1101",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "📚 豆腐阅读",
+    "searchCount" : 0,
+    "url" : "http:\/\/api.doufu.me\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "笔趣阁",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.yuyouku.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "name" : "广场舞地盘",
+    "searchCount" : 0,
+    "url" : "请看源介绍",
+    "tocCount" : 0,
+    "introLen" : 0,
+    "tier" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "天堂深圳",
+    "searchCount" : 0,
+    "url" : "http:\/\/tiantangxiangzuoshenzhenwangyou.qwyd.net\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📚 出版",
+    "tier" : 1,
+    "name" : "㊣ 若初文学 #一程",
+    "searchCount" : 20,
+    "url" : "http:\/\/www.ruochu.com#♤yc",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "猫耳有声",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.missevan.com#pb1025",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "猫耳听书",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.missevan.com#guaner",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "猫耳听书",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.missevan.com#♤guaner",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "话本小说",
+    "searchCount" : 30,
+    "url" : "https:\/\/so.ihuaben.com\/search?keyword=我是",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 1,
+    "name" : "画本阅读",
+    "searchCount" : 30,
+    "url" : "https:\/\/so.ihuaben.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "笔趣阁",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.yuyougu.com\/#pb1101",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 1,
+    "name" : "猫耳听书（正版）",
+    "searchCount" : 30,
+    "url" : "https:\/\/www.missevan.com#乃星",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "甜梦耽美",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.tmwk9.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "稻草书屋",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dcrbk.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "九怀小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.jiuhuaiwenxue.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "💰 黑岩",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.heiyan.com#芜恙",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "💰 黑岩阅读",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.heiyan.com#一程",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "菠萝包",
+    "searchCount" : 0,
+    "url" : "https:\/\/book.sfacg.com##发现",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,🎈 轻小说",
+    "tier" : 0,
+    "name" : "SF轻小说⑥",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.sfacg.com#一程",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "墨坛文学",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.22mt.net\/#xsw8093",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "晋江榜单",
+    "searchCount" : 0,
+    "url" : "http:\/\/android.jjwxc.net#myself",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "书旗小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/t.shuqi.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "晋江[apps]",
+    "searchCount" : 0,
+    "url" : "https:\/\/apps.jjwxc.net",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 1,
+    "name" : "阅友小说",
+    "searchCount" : 5,
+    "url" : "https:\/\/sma.yueyouxs.com#♤yc",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "望书阁网",
+    "searchCount" : 100,
+    "url" : "http:\/\/wap.wangshugu.net#",
+    "introLen" : 50,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "七猫小说",
+    "searchCount" : 10,
+    "url" : "https:\/\/api-bc.wtzw.com#♤ycb",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "中文万维（优）",
+    "searchCount" : 20,
+    "url" : "http:\/\/cread.com",
+    "introLen" : 127,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "球球览器",
+    "searchCount" : 21,
+    "url" : "https:\/\/so.html5.qq.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "果露小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.xguolu88.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "明月中文",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.mingzw.net",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "💰 书耽[搜索]",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.shubl.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "🎉 晋江百合",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.jjwxc.net\/channel",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,📖 小说",
+    "tier" : 0,
+    "name" : "㊣ 书耽 🔥 #一程1101",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.shubl.com#yc1101",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "乐读小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/api.book.bookld.com##",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,💰 正版",
+    "tier" : 0,
+    "name" : "💰 晋江",
+    "searchCount" : 0,
+    "url" : "http:\/\/android.jjwxc.net#芜恙",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "猫耳有声",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.missevan.com#关耳",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "随心看吧",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.suixkan.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "七猫小说",
+    "searchCount" : 10,
+    "url" : "https:\/\/api-bc.wtzw.com#yc1101",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "中华诗词",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.zhonghuashici.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "音乐 书源,源仓库",
+    "tier" : 0,
+    "name" : "音乐-网易",
+    "searchCount" : 0,
+    "url" : "http:\/\/music.163.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 4,
+    "name" : "免费追书（优）",
+    "searchCount" : 20,
+    "url" : "https:\/\/cxb-pro.cread.com\/##@遇知",
+    "introLen" : 683,
+    "tocCount" : 1
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 4,
+    "name" : "免费追书",
+    "searchCount" : 20,
+    "url" : "https:\/\/cxb-pro.cread.com##@遇知",
+    "introLen" : 683,
+    "tocCount" : 1
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "炎上书屋",
+    "searchCount" : 0,
+    "url" : "https:\/\/book.zri.moe",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "趣书网吧",
+    "searchCount" : 10,
+    "url" : "https:\/\/qubook.org\/##@遇知",
+    "introLen" : 6811,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "书海阁子",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.shuhaige.net#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "爱搬文屋",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.banwenwu.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "奇书网包",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.xqishuta.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "霹雳书坊",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.pilisf.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "万层中文",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.oneceng.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "望书阁网",
+    "searchCount" : 100,
+    "url" : "http:\/\/wap.wangshugu.org",
+    "introLen" : 50,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "松鹤阅读",
+    "searchCount" : 20,
+    "url" : "DQuestQBall#001",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "画本阅读",
+    "searchCount" : 30,
+    "url" : "https:\/\/so.ihuaben.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "书海阁子",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.shuhaige.net\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "笔趣阁",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.yuyougu.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "全本同人",
+    "searchCount" : 0,
+    "url" : "https:\/\/qbtr.cc",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "独步小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dbxsd.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "飘天文学",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.ptwxz.org",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "风扇枕说（日语）",
+    "searchCount" : 0,
+    "url" : "https:\/\/kakuyomu.jp\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "宠耳小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.txt520.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "大米小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.damixs.info",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "稻草书屋",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dcrsu.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "笔趣,源仓库",
+    "tier" : 0,
+    "name" : "笔趣阁③",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.boquku.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "星空小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/api-bc.zonghengxiaoshuo.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "笔趣阁",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.yuyouku.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "西瓜免费",
+    "searchCount" : 0,
+    "url" : "🥝西瓜免费小说App🍒",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "奇书网络",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.xqishuta.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "趣悦小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/vreader.vivo.com.cn",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "书海阁子",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.shuhaige.net\/#pb1101",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "博览群书（英文）",
+    "searchCount" : 0,
+    "url" : "https:\/\/readnovelfull.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "漫画",
+    "tier" : 0,
+    "name" : "绅士漫画( 优+++ )",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.wnacg.ru\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "荣成看书",
+    "searchCount" : 0,
+    "url" : "https:\/\/101kan.com\/##细雨尘寰",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "爱去小说（导入）",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.aiqu222.com##可下",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "次呀文学",
+    "searchCount" : 0,
+    "url" : "http:\/\/wap.115wx.cc",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "爱去小说（导入）",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.aiqu2727.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "无遮韩漫",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.wxzhm.top\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 4,
+    "name" : "穿越小说",
+    "searchCount" : 100,
+    "url" : "http:\/\/www.kk169.net",
+    "introLen" : 67,
+    "tocCount" : 683
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 4,
+    "name" : "穿越小说",
+    "searchCount" : 100,
+    "url" : "http:\/\/www.kk169.net\/",
+    "introLen" : 67,
+    "tocCount" : 683
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "稻草书屋",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dcrsu.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "铅笔小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.178yhr.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "全本小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.apap.net",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "爱有小说（繁体）",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.178yhr.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "话本小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ihuaben.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源,校验超时",
+    "tier" : 0,
+    "name" : "万层中文",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.oneceng.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "宜搜小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/api.ieasou.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "宜搜小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/api.ieasou.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "话本小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.ihuaben.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "书海阁吧",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.shuhaige.net\/#♤pb",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "笔趣阁",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.yuyougu.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "破万卷吧（魔法）",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.powanjuan.cc\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "中文书城",
+    "searchCount" : 20,
+    "url" : "https:\/\/m.cread.com",
+    "introLen" : 127,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 4,
+    "name" : "穿越小说",
+    "searchCount" : 100,
+    "url" : "http:\/\/www.kk169.net#",
+    "introLen" : 67,
+    "tocCount" : 683
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "年代小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.4xiaoshuo.info",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "丁丁小说",
+    "searchCount" : 15,
+    "url" : "http:\/\/api.xingliangglobal.com#",
+    "introLen" : 151,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "天意文学",
+    "searchCount" : 20,
+    "url" : "https:\/\/m.tywx.com#",
+    "introLen" : 7,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "多看阅读",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.duokan.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "书耽中文",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.shubl.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "多看阅读",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.dkmi.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "铅笔小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.178yhr.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "阅友小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.yueyouxs.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "中华诗词",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.zhonghuashici.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "盗墓笔记",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.daomubiji.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "秋风书屋",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.qiufengshuwu.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "星辰",
+    "tier" : 0,
+    "name" : "秋风书屋",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.qiufengshuwu.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "笔趣阁",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.yuyouge.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "恶魔小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.txt520.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,网络,自制",
+    "tier" : 0,
+    "name" : "全本小说网⑤",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.quanben5.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,网络,自制",
+    "tier" : 0,
+    "name" : "顶级看书网",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.djks5.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "坤坤书库（魔法）",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.52shuku.vip",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源,校验超时",
+    "tier" : 0,
+    "name" : "言情心港",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.yanqinggang.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "耽美小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.blxsw.cc#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "趣书小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/qubook.org#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "阅友小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.yueyouxs.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "百度小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/novelapi.baidu.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "阅友小说",
+    "searchCount" : 5,
+    "url" : "http:\/\/m.suixkan.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "阅友小说",
+    "searchCount" : 5,
+    "url" : "http:\/\/m.suixkan.com#♤yc",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "盗墓笔记",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.daomubiji.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "甜梦文库",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.tmwk9.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 1,
+    "name" : "话本小说",
+    "searchCount" : 30,
+    "url" : "https:\/\/so.ihuaben.com\/search?keyword=我是#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "搜书小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.soshu8.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "同人小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.trxs.cc\/#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "炎上书屋",
+    "searchCount" : 0,
+    "url" : "https:\/\/book.zri.moe\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "笔趣阁",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.boquku.com\/#♤pb",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 3,
+    "name" : "植物小说",
+    "searchCount" : 15,
+    "url" : "http:\/\/api.xingliangglobal.com\/",
+    "introLen" : 151,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "书海阁子",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.shuhaige.net",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "奇塔小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.feishuwx.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "三八小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.38xs.net\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "玉优谷吧",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.yuyougu.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "看漫画吧（优）",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.kanman.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "彩绘漫画（优）",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.kanman.com#Haxc1107",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "爱看漫画",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.kanman.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "看漫画吧",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.kanman.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "知音漫客",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.zymk.cn\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 1,
+    "name" : "全免漫画（优）",
+    "searchCount" : 20,
+    "url" : "https:\/\/api-cdn.kaimanhua.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 1,
+    "name" : "全免漫画",
+    "searchCount" : 20,
+    "url" : "https:\/\/api-cdn.kaimanhua.com\/##@遇知",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "酸奶漫画",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.1kkk.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "铅笔漫画（优）",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.xmanhua.com#Haxc1107",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "星际漫画（优）",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.xmanhua.com#♤Haxc",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "酝酿漫画（魔法）",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.xmanhua.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "好看漫画",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.9comic.cn\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "笔趣阁",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.biquge345.com\/##细雨尘寰",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "星辰漫画",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.gmh1234.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "八零电子",
+    "searchCount" : 0,
+    "url" : "http:\/\/wap.80zw.la\/##细雨尘寰",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "知音漫客",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.zymk.cn",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "漫客栈子",
+    "searchCount" : 0,
+    "url" : "http:\/\/comic.mkzhan.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "爱看漫画",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.kanman.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅 ",
+    "searchCount" : 0,
+    "url" : "http:\/\/search.ximalaya.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "http:\/\/search.ximalaya.com#一程",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "http:\/\/search.ximalaya.com#芜恙",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 1,
+    "name" : "全免漫画",
+    "searchCount" : 20,
+    "url" : "https:\/\/api-cdn.kaimanhua.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "http:\/\/search.ximalaya.com#guaner",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,漫画 书源",
+    "tier" : 0,
+    "name" : "酸奶漫画",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.1kkk.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "http:\/\/search.ximalaya.com#关耳",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "http:\/\/search.ximalaya.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "http:\/\/search.ximalaya.com#md-guaner",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "荔枝有声",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.lizhi.fm\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ximalaya.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "海洋听书（优）",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.ychy.org",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,影视 书源",
+    "tier" : 0,
+    "name" : "优质资源（优）",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.hdzyk.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "特殊 书源,源仓库",
+    "tier" : 0,
+    "name" : "百合论坛",
+    "searchCount" : 0,
+    "url" : "https:\/\/bbs.yamibo.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "特殊 书源,源仓库",
+    "tier" : 0,
+    "name" : "爱发电",
+    "searchCount" : 0,
+    "url" : "https:\/\/afdian.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,游戏 书源",
+    "tier" : 0,
+    "name" : "盒子游戏",
+    "searchCount" : 0,
+    "url" : "https:\/\/h.4399.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "安轻小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/book.sfacg.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ximalaya.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "http:\/\/search.ximalaya.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "猫耳听书",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.missevan.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "猫耳有声",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.missevan.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "特殊 书源,源仓库",
+    "tier" : 0,
+    "name" : "优品学习（发现）",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ypppt.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "音乐 书源,源仓库",
+    "tier" : 0,
+    "name" : "音乐-网易",
+    "searchCount" : 0,
+    "url" : "http:\/\/music.163.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "听书 书源,源仓库",
+    "tier" : 0,
+    "name" : "喜马拉雅",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.ximalaya.com\/#乃星",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "特殊 书源,源仓库",
+    "tier" : 3,
+    "name" : "爱推书君",
+    "searchCount" : 50,
+    "url" : "https:\/\/pre-api.tuishujun.com\/",
+    "introLen" : 34,
+    "tocCount" : 0
+  },
+  {
+    "group" : "特殊 书源,源仓库",
+    "tier" : 0,
+    "name" : "百度知道",
+    "searchCount" : 0,
+    "url" : "https:\/\/zhidao.baidu.com\/msearch",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "特殊 书源,源仓库",
+    "tier" : 0,
+    "name" : "百度知道",
+    "searchCount" : 0,
+    "url" : "https:\/\/zhidao.baidu.com\/msearch\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "特殊 书源,源仓库",
+    "tier" : 0,
+    "name" : "百度知道",
+    "searchCount" : 0,
+    "url" : "https:\/\/zhidao.baidu.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,游戏 书源",
+    "tier" : 0,
+    "name" : "霸王游戏",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.yikm.net",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "晋江小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.jjwxc.net",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "QQ阅读",
+    "searchCount" : 0,
+    "url" : "https:\/\/ubook.reader.qq.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "轻菠萝包",
+    "searchCount" : 0,
+    "url" : "https:\/\/book.sfacg.com##目录",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "晋江详榜",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.jjwxc.net\/##分类标签#未月十八二次排版",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "九怀中文",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.jiuhuaiwenxue.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "绾书文学",
+    "searchCount" : 0,
+    "url" : "https:\/\/api.wanshu.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "晋江详榜（发现）",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.jjwxc.net\/细分",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "飞卢小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/b.faloo.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "飞卢小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/wap.faloo.com#111",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "飞卢小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/tongren.faloo.com#",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "晋江详榜（发现）",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.jjwxc.net#未月十八小改",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "万层中文",
+    "searchCount" : 0,
+    "url" : "http:\/\/www.oneceng.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "日轻小说",
+    "searchCount" : 0,
+    "url" : "[图片]http:\/\/www.sfacg.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "QQ阅读",
+    "searchCount" : 0,
+    "url" : "https:\/\/bookshelf.html5.qq.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 1,
+    "name" : "阿巴小说",
+    "searchCount" : 10,
+    "url" : "http:\/\/xiaoshuo.uc.cn",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 4,
+    "name" : "安轻小说",
+    "searchCount" : 12,
+    "url" : "https:\/\/minipapi.sfacg.com#",
+    "introLen" : 244,
+    "tocCount" : 6
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "栀子欢网",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.zhizihuan.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版小说 书源",
+    "tier" : 0,
+    "name" : "心轻小说",
+    "searchCount" : 0,
+    "url" : "http:\/\/s.sfacg.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版漫画 书源",
+    "tier" : 0,
+    "name" : "快看漫画",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.kuaikanmanhua.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版漫画 书源",
+    "tier" : 0,
+    "name" : "快看漫画",
+    "searchCount" : 0,
+    "url" : "http:\/\/m.kuaikanmanhua.com#Haxc1107",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版漫画 书源",
+    "tier" : 0,
+    "name" : "漫客栈吧",
+    "searchCount" : 0,
+    "url" : "https:\/\/comic.mkzhan.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版漫画 书源",
+    "tier" : 0,
+    "name" : "漫客栈子",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.mkzhan.com#♤Haxc",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版漫画 书源",
+    "tier" : 0,
+    "name" : "菠萝漫画",
+    "searchCount" : 0,
+    "url" : "https:\/\/api.sfacg.com#漫画",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版漫画 书源",
+    "tier" : 1,
+    "name" : "快看漫画",
+    "searchCount" : 24,
+    "url" : "https:\/\/m.kuaikanmanhua.com\/",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,正版漫画 书源",
+    "tier" : 0,
+    "name" : "快看漫画",
+    "searchCount" : 0,
+    "url" : "https:\/\/api.kkmh.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,笔趣阁",
+    "tier" : 0,
+    "name" : "54看书-笔趣阁（天天书源）",
+    "searchCount" : 0,
+    "url" : "https:\/\/m.54kanshu.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  },
+  {
+    "group" : "源仓库,小说 书源",
+    "tier" : 0,
+    "name" : "湘潭小说",
+    "searchCount" : 0,
+    "url" : "https:\/\/www.xs7.com",
+    "introLen" : 0,
+    "tocCount" : 0
+  }
+]

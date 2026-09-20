@@ -1,0 +1,155 @@
+{
+  "success": true,
+  "count": 18,
+  "note": "APIClient.searchBook 实际结果（书源爬虫受 5s 超时限制返回空，结果全部来自出版物 API）",
+  "results": [
+    {
+      "title": "江河万古",
+      "author": "傅林祥, 著",
+      "isbn": "9787544522762",
+      "publisher": "长春出版社",
+      "cover_url": "https://api.jisuapi.com/isbn/upload/5a/47964765ba9027.jpg",
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "万古江河",
+      "author": "许倬云, 著",
+      "isbn": "9787532130221",
+      "publisher": "上海文艺出版社",
+      "cover_url": "https://api.jisuapi.com/isbn/upload/be/775cbc4780090f.jpg",
+      "provider": "aliyun_title",
+      "publish_date": null,
+      "toc": null
+    },
+    {
+      "title": "万古江河",
+      "author": "许倬云",
+      "isbn": "9787547743829",
+      "publisher": "北京日报出版社",
+      "cover_url": "https://api.jisuapi.com/isbn/upload/94/0adf49023cfeba.jpg",
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "江河万古流",
+      "author": "冯天瑜, 邵学海著",
+      "isbn": "9787539436555",
+      "publisher": "湖北美术出版社",
+      "cover_url": "https://api.jisuapi.com/isbn/upload/77/3fe2d6d8b45ca1.jpg",
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "不废江河万古流",
+      "author": "公子",
+      "isbn": "9787559666635",
+      "publisher": "北京联合出版公司",
+      "cover_url": "https://api.jisuapi.com/isbn/upload/7f/22c3dd71c496d3.jpg",
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "万古秦风",
+      "author": "孙皓晖",
+      "isbn": "9787521774863",
+      "publisher": "中信出版集团",
+      "cover_url": "https://api.jisuapi.com/isbn/upload/2025/1/1eb07ef16bbf89.jpg",
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "万古丹青",
+      "author": "李明, 胡春勃, 著",
+      "isbn": "9787224118575",
+      "publisher": "陕西人民出版社",
+      "cover_url": "https://api.jisuapi.com/isbn/upload/5e/1b84bb660ab8c7.jpg",
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "万古金城",
+      "author": "夏龙河, 著",
+      "isbn": "9787530671603",
+      "publisher": "百花文艺出版社",
+      "cover_url": "https://api.jisuapi.com/isbn/upload/6c/40c1240fc7ce88.jpg",
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "万古奇观",
+      "author": "卞德培著",
+      "isbn": "9787110061657",
+      "publisher": "科学普及出版社",
+      "cover_url": "https://api.jisuapi.com/isbn/upload/1d/a38b8b1f6094e1.jpg",
+      "provider": "aliyun_title",
+      "publish_date": null,
+      "toc": null
+    },
+    {
+      "title": "江河万古流",
+      "author": "北京大学物理学院大气科学系",
+      "isbn": "9787301127476",
+      "publisher": "北京大学出版社",
+      "cover_url": null,
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "江河万古流",
+      "author": "薛清芳, 著",
+      "isbn": "9787516908242",
+      "publisher": "华龄出版社",
+      "cover_url": null,
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "江河万古流",
+      "author": "冯天瑜, 著",
+      "isbn": "9787216097055",
+      "publisher": "湖北人民出版社",
+      "cover_url": null,
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "江河万古流",
+      "author": "文浩, 著",
+      "isbn": "9787561399613",
+      "publisher": "陕西师范大学出版总社有限公司",
+      "cover_url": null,
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "江河万古流",
+      "author": "陈世文, 著",
+      "isbn": "9787537827317",
+      "publisher": "北岳文艺出版社",
+      "cover_url": null,
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "不废江河万古流",
+      "author": "陈智, 主编",
+      "isbn": "9787040207231",
+      "publisher": "高等教育出版社",
+      "cover_url": null,
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "万古奔腾",
+      "author": "刘锡汉, 郭庆汉, 路洪卫著",
+      "isbn": "9787543032041",
+      "publisher": "武汉出版社",
+      "cover_url": null,
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "万古乾坤",
+      "author": "乔忠延, 著",
+      "isbn": "9787547300978",
+      "publisher": "东方出版中心",
+      "cover_url": null,
+      "provider": "aliyun_title"
+    },
+    {
+      "title": "富轹万古",
+      "author": "(澳) 菲利普·劳, (澳) 马修·克拉克, 著",
+      "isbn": "9787303246199",
+      "publisher": "北京师范大学出版社",
+      "cover_url": null,
+      "provider": "aliyun_title"
+    }
+  ]
+}
