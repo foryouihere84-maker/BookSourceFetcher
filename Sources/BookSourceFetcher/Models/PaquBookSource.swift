@@ -170,6 +170,9 @@ public struct SearchRule: Codable, Sendable {
 
 /// 书籍详情规则（ruleBookInfo）。
 public struct BookInfoRule: Codable, Sendable {
+    public var updateTime: String? = nil
+    public var canReName: String? = nil
+    public var downloadUrls: String? = nil
     /// 初始化规则：先用此规则处理响应体，再提取各字段（如 `"$.data"` 表示取 JSON 根的 data 字段）。
     public let `init`: String?
     public let author: String?
@@ -184,6 +187,10 @@ public struct BookInfoRule: Codable, Sendable {
 
 /// 目录规则（ruleToc）。
 public struct TocRule: Codable, Sendable {
+    public var preUpdateJs: String? = nil
+    public var isVolume: String? = nil
+    public var isVip: String? = nil
+    public var isPay: String? = nil
     /// 章节列表选择器。支持前缀：`-` 表示倒序，`+` 表示保持原序。
     public let chapterList: String?
     public let chapterName: String?
@@ -197,6 +204,12 @@ public struct TocRule: Codable, Sendable {
 
 /// 正文规则（ruleContent）。
 public struct ContentRule: Codable, Sendable {
+    public var title: String? = nil
+    public var sourceRegex: String? = nil
+    public var replaceRegex: String? = nil
+    public var imageStyle: String? = nil
+    public var imageDecode: String? = nil
+    public var payAction: String? = nil
     public let content: String?
     public let nextContentUrl: String?
     public let webJs: String?

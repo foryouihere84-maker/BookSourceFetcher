@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:BookSourceFetcher}",
+            "name": "Debug fetcher-cli",
+            "target": "fetcher-cli",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug fetcher-cli"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:BookSourceFetcher}",
+            "name": "Release fetcher-cli",
+            "target": "fetcher-cli",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release fetcher-cli"
+        }
+    ]
+}

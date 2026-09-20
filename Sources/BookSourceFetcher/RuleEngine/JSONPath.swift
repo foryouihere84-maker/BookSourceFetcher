@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreFoundation
 
 /// JSONPath 求值器。输入为 JSON 反序列化后的 Any。
 enum JSONPath {
@@ -177,6 +178,9 @@ enum JSONPath {
         guard let value, !(value is NSNull) else { return nil }
         if let s = value as? String { return s }
         if let n = value as? NSNumber {
+            if CFGetTypeID(n) == CFBooleanGetTypeID() {
+                return n.boolValue ? "true" : "false"
+            }
             return n.stringValue
         }
         if let array = value as? [Any] {

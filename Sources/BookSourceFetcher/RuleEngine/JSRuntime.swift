@@ -52,7 +52,7 @@ final class JSRuntime {
     /// a script must be one atomic operation across all contexts in that VM.
     private static let executionLock = NSRecursiveLock()
 
-    private let context: JSContext
+    private var context: JSContext!
     private let executionTimeout: TimeInterval
     private(set) var storage: [String: String] = [:]
     /// 可选 Cookie 存储，供 java.getCookie/putCookie/removeCookie 桥接。
@@ -66,8 +66,18 @@ final class JSRuntime {
     ) {
         self.cookieStore = cookieStore
         self.executionTimeout = max(0.01, executionTimeout)
+        Self.executionLock.lock()
+        defer { Self.executionLock.unlock() }
         self.context = JSContext(virtualMachine: Self.sharedVM)!
         installJavaBridge()
+    }
+
+    deinit {
+        // JSContext registers/unregisters itself in the shared VM's Objective-C map table.
+        // Serialize its entire lifecycle, not only evaluateScript (the map is not thread safe).
+        Self.executionLock.lock()
+        context = nil
+        Self.executionLock.unlock()
     }
 
     // MARK: - java.* 桥接
@@ -87,6 +97,11 @@ final class JSRuntime {
             Data(input.utf8).base64EncodedString()
         }
         java.setObject(base64, forKeyedSubscript: "base64Encode" as NSString)
+        let decode: @convention(block) (String) -> String = { input in
+            guard let data = Data(base64Encoded: input, options: .ignoreUnknownCharacters) else { return "" }
+            return String(data: data, encoding: .utf8) ?? ""
+        }
+        java.setObject(decode, forKeyedSubscript: "base64Decode" as NSString)
 
         // java.put(key, value) -> 存变量，返回空串
         let put: @convention(block) (String, String) -> String = { [weak self] key, value in
@@ -151,14 +166,33 @@ final class JSRuntime {
         storage[key] = value
     }
 
+    func restoreVariables(_ values: [String: String]) { storage = values }
+
+    /// Bind rule helpers to the current JSON object/HTML node. Do not retain this runtime in its JS closures.
+    func bind(_ scope: RuleContext) {
+        Self.executionLock.lock()
+        defer { Self.executionLock.unlock() }
+        let detached = RuleContext(key: scope.key, page: scope.page, baseURL: scope.baseURL,
+                                   element: scope.element, json: scope.json, jsonRoot: scope.jsonRoot,
+                                   variables: storage)
+        let getter: @convention(block) (String) -> String = { rule in
+            RuleEngine.evaluate(rule, in: detached) ?? ""
+        }
+        context.objectForKeyedSubscript("java")?.setObject(getter, forKeyedSubscript: "getString" as NSString)
+        if let object = scope.json { context.setObject(object, forKeyedSubscript: "result" as NSString) }
+        else if let html = try? scope.element?.outerHtml() { context.setObject(html, forKeyedSubscript: "result" as NSString) }
+    }
+
     /// 在 JSContext 上设置一个 Block 函数（供 CoverDecryptor 注入 getByteArray 等）。
     func setObject(_ object: Any, forKeyedSubscript key: String) {
+        Self.executionLock.lock()
+        defer { Self.executionLock.unlock() }
         context.setObject(object, forKeyedSubscript: key as NSString)
     }
 
     /// 直接在 JSContext 中声明一个全局变量（绕过字符串字面量编码问题）。
     func setVariable(_ name: String, value: String) {
-        context.setObject(value, forKeyedSubscript: name as NSString)
+        setObject(value, forKeyedSubscript: name)
     }
 
     // MARK: - 执行
@@ -171,6 +205,10 @@ final class JSRuntime {
             context.setObject(page, forKeyedSubscript: "page" as NSString)
             context.setObject(baseURL ?? "", forKeyedSubscript: "baseUrl" as NSString)
             let value = context.evaluateScript(script)
+            if let value, value.isObject, let object = value.toObject(),
+               JSONSerialization.isValidJSONObject(object),
+               let data = try? JSONSerialization.data(withJSONObject: object),
+               let json = String(data: data, encoding: .utf8) { return json }
             guard let str = value?.toString(), str != "undefined", str != "null" else {
                 return nil
             }

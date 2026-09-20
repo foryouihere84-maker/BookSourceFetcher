@@ -48,6 +48,41 @@ Task {
             args.removeSubrange(idx...idx + 1)
         }
 
+        // --read "书名" [书源JSON路径或URL] [--chapters N]；默认读取首章验证可读性。
+        // --read-url bookURL sourceURL [书源JSON路径或URL] [--chapters N]
+        if args.first == "--read" || args.first == "--read-url" {
+            var count = 1
+            if let index = args.firstIndex(of: "--chapters") {
+                guard args.count > index + 1, let number = Int(args[index + 1]), number > 0 else {
+                    throw BookReadingError.empty("--chapters 必须为正整数")
+                }
+                count = number
+                args.removeSubrange(index...index + 1)
+            }
+            let direct = args.first == "--read-url"
+            let required = direct ? 3 : 2
+            guard args.count >= required else { throw BookReadingError.empty("用法：--read 书名 [书源文件] 或 --read-url bookURL sourceURL [书源文件]") }
+            let extra = Array(args.dropFirst(required))
+            let fetcher = extra.isEmpty ? try PaquBookSourceFetcher.loadBundled() : try await loadFetcher(extra)
+            for cookie in cookies { fetcher.injectCookie(cookie.value, forHost: cookie.host) }
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = [.prettyPrinted, .sortedKeys, .withoutEscapingSlashes]
+            if direct {
+                let book = try await fetcher.openBook(bookURL: args[1], sourceURL: args[2])
+                var contents: [ChapterContent] = []
+                for chapter in book.chapters.filter({ !$0.isVolume }).prefix(count) {
+                    contents.append(try await fetcher.fetchContent(book: book, chapter: chapter))
+                }
+                struct Output: Encodable { let book: ReadableBook; let contents: [ChapterContent] }
+                print(String(decoding: try encoder.encode(Output(book: book, contents: contents)), as: UTF8.self))
+            } else {
+                let response = try await fetcher.readBook(bookName: args[1], chapterLimit: count)
+                print(String(decoding: try encoder.encode(response), as: UTF8.self))
+                if !response.complete { exit(2) }
+            }
+            exit(0)
+        }
+
         // --webview URL 模式：测试 Layer 4 渲染
         if let idx = args.firstIndex(of: "--webview"), args.count > idx + 1 {
             let url = args[idx + 1]

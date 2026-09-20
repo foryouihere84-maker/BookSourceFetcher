@@ -35,6 +35,9 @@ enum BookSourceSearcher {
 
         let runtime = JSRuntime(cookieStore: cookieStore)
         runtime.setSourceHost(source.host ?? "")
+        if let library = source.jsLib {
+            runtime.run(library, key: key, page: page, baseURL: source.bookSourceUrl)
+        }
         guard let spec = SearchRequestBuilder.build(from: source, key: key, page: page, runtime: runtime) else {
             return SearchOutcome(items: [], failed: true)
         }
@@ -59,7 +62,7 @@ enum BookSourceSearcher {
             cookieStore.save(from: http, url: url)
         }
 
-        return SearchOutcome(items: parse(data: data, source: source, key: key, page: page, baseURL: spec.urlString, cookieStore: cookieStore, runtime: runtime), failed: false)
+        return SearchOutcome(items: parse(data: data, source: source, key: key, page: page, baseURL: http.url?.absoluteString ?? spec.urlString, cookieStore: cookieStore, runtime: runtime), failed: false)
     }
 
     /// Layer 4：用 WebView 加载渲染，取渲染后 HTML 再解析。
@@ -124,7 +127,9 @@ enum BookSourceSearcher {
         guard !items.isEmpty else { return [] }
 
         var results: [ParsedBookItem] = []
+        let listVariables = runtime?.storage ?? [:]
         for item in items {
+            runtime?.restoreVariables(listVariables)
             let itemCtx = RuleContext(key: key, page: page, baseURL: baseURL, element: nil, json: item, jsonRoot: root, runtime: runtime)
             let title = RuleEngine.evaluate(rule.name, in: itemCtx)
             let author = RuleEngine.evaluate(rule.author, in: itemCtx)
@@ -137,7 +142,12 @@ enum BookSourceSearcher {
                 cover = CoverDecryptor.decrypt(rawCover, js: js, source: source, cookieStore: cookieStore, bookURL: bookURL)
             }
 
-            let parsed = ParsedBookItem(
+            var parsed = ParsedBookItem(
+                sourceUrl: source.bookSourceUrl,
+                kind: RuleEngine.evaluate(rule.kind, in: itemCtx),
+                wordCount: RuleEngine.evaluate(rule.wordCount, in: itemCtx),
+                latestChapterTitle: RuleEngine.evaluate(rule.lastChapter, in: itemCtx),
+                variables: runtime?.storage ?? [:],
                 title: clean(title),
                 author: clean(author),
                 coverUrl: clean(cover),
@@ -145,6 +155,7 @@ enum BookSourceSearcher {
                 intro: clean(RuleEngine.evaluate(rule.intro, in: itemCtx)),
                 provider: source.bookSourceName
             )
+            parsed.variables = runtime?.storage ?? [:]
             if parsed.isValid {
                 results.append(parsed)
             }
@@ -164,7 +175,9 @@ enum BookSourceSearcher {
         guard !elements.isEmpty else { return [] }
 
         var results: [ParsedBookItem] = []
+        let listVariables = runtime?.storage ?? [:]
         for element in elements {
+            runtime?.restoreVariables(listVariables)
             let itemCtx = context.scoped(to: element)
             let title = RuleEngine.evaluate(rule.name, in: itemCtx)
             let author = RuleEngine.evaluate(rule.author, in: itemCtx)
@@ -177,7 +190,12 @@ enum BookSourceSearcher {
                 cover = CoverDecryptor.decrypt(rawCover, js: js, source: source, cookieStore: cookieStore, bookURL: bookURL)
             }
 
-            let parsed = ParsedBookItem(
+            var parsed = ParsedBookItem(
+                sourceUrl: source.bookSourceUrl,
+                kind: RuleEngine.evaluate(rule.kind, in: itemCtx),
+                wordCount: RuleEngine.evaluate(rule.wordCount, in: itemCtx),
+                latestChapterTitle: RuleEngine.evaluate(rule.lastChapter, in: itemCtx),
+                variables: runtime?.storage ?? [:],
                 title: clean(title),
                 author: clean(author),
                 coverUrl: clean(cover),
@@ -185,6 +203,7 @@ enum BookSourceSearcher {
                 intro: clean(RuleEngine.evaluate(rule.intro, in: itemCtx)),
                 provider: source.bookSourceName
             )
+            parsed.variables = runtime?.storage ?? [:]
             if parsed.isValid {
                 results.append(parsed)
             }

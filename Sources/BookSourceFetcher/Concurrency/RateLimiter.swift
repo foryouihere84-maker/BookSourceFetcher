@@ -38,6 +38,7 @@ final class RateLimiter: Sendable {
         guard let limit = limits[host] else { return }
 
         while true {
+            if Task.isCancelled { return }
             let waitTime: TimeInterval? = lock.locked {
                 let now = Date.timeIntervalSinceReferenceDate
                 var ts = timestamps[host] ?? []

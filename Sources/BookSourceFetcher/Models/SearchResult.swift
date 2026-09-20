@@ -29,6 +29,12 @@ public struct BookFetchData: Codable, Sendable {
 /// 单条书籍结果。字段与用户示例一致：
 /// title / author / intro / isbn / publisher / cover_url / provider
 public struct BookFetchItem: Codable, Sendable, Equatable {
+    public var bookUrl: String? = nil
+    public var sourceUrl: String? = nil
+    public var kind: String? = nil
+    public var wordCount: String? = nil
+    public var latestChapterTitle: String? = nil
+    public var variables: [String: String]? = nil
     public let title: String
     public let author: String?
     public let intro: String?
@@ -48,6 +54,7 @@ public struct BookFetchItem: Codable, Sendable, Equatable {
     }
 
     enum CodingKeys: String, CodingKey {
+        case bookUrl, sourceUrl, kind, wordCount, latestChapterTitle, variables
         case title, author, intro, isbn, publisher
         case coverUrl = "cover_url"
         case provider
@@ -63,6 +70,11 @@ public struct BookFetchItem: Codable, Sendable, Equatable {
 
 /// 搜索结果（从书源解析出的原始条目，尚未组装成 BookFetchItem）。
 struct ParsedBookItem: Sendable {
+    var sourceUrl: String? = nil
+    var kind: String? = nil
+    var wordCount: String? = nil
+    var latestChapterTitle: String? = nil
+    var variables: [String: String] = [:]
     let title: String?
     let author: String?
     let coverUrl: String?

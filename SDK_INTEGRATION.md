@@ -1,6 +1,55 @@
 # BookSourceFetcher SDK 接入文档
 
-BookSourceFetcher 是原生 Swift SDK，用于加载 Legado 书源并完成书名搜索、详情解析、目录解析和 Cookie 管理。SDK 支持 iOS 16+、macOS 13+，公开模块名为 `BookSourceFetcher`。
+BookSourceFetcher 是原生 Swift SDK，用于加载 Legado 书源并完成书名搜索、详情解析、目录解析、正文分页抓取和 Cookie 管理。SDK 支持 iOS 16+、macOS 13+，公开模块名为 `BookSourceFetcher`。
+
+## 完整阅读接口
+
+```swift
+import BookSourceFetcher
+
+let sdk = try BookSourceSDK.bundled()
+let result = try await sdk.read("三国演义", author: "罗贯中", chapterLimit: 3)
+if let book = result.book {
+    for content in result.contents {
+        print(content.chapter.title, content.content)
+    }
+    // 后续按需加载；目录中的卷标题不是正文。
+    if let next = book.chapters.filter({ !$0.isVolume }).dropFirst(3).first {
+        let content = try await sdk.content(book: book, chapter: next)
+        print(content.content)
+    }
+}
+for attempt in result.attempts { print(attempt.message) }
+```
+
+也可将 `search` 返回的候选传给 `try await sdk.openBook(candidate)`，或使用 `openBook(bookURL:sourceURL:)` 直接加载详情和目录。旧 `resolve` 保留原有行为，不返回正文。
+
+### 返回数据
+
+所有新模型均为 `Codable`，编码时使用下列 Swift 字段名（不是旧搜索接口的 snake_case）。
+
+| 模型 | 字段 |
+| --- | --- |
+| `BookReadResponse` | `book`、`contents`、`requestedChapters`、`success`、`complete`、`attempts` |
+| `ReadableBook` | `bookUrl`、`tocUrl`、`sourceUrl`、`sourceName`、`name`、`author`、`intro`、`coverUrl`、`kind`、`wordCount`、`latestChapterTitle`、`type`、`updateTime`、`downloadUrls`、`variables`、`chapters` |
+| `ReadableChapter` | `index`、`title`、`url`、`bookUrl`、`baseUrl`、`wordCount`、`isVolume`、`isVip`、`isPay`、`tag`、`variables` |
+| `ChapterContent` | `chapter`、`content`、`pageURLs`、`imageStyle` |
+| `BookReadAttempt` | `sourceUrl`、`bookUrl`、`message` |
+
+书源未提供的可选元数据可以为空。正文是独立的字符串，不内嵌在书籍对象中；保留段落换行及普通图片的绝对地址 `<img src="…">` 标记，不下载图片字节。`variables` 用于跨步骤传递书源脚本变量，可能包含站点信息，请勿随意公开。
+
+### 成功判定与边界
+
+- 默认 `chapterLimit = 1`；选择非卷标题的前 N 章，目录不足 N 章时取实际数量。`requestedChapters` 表示选定数量。
+- `success` 表示至少一章通过正文校验；`complete` 表示选定章节全部成功，不能当作整本书已下载的标志。部分失败保留同一书源的正文和失败记录。
+- `read` 使用未按书名去重的候选，按书源优先级尝试，重新核对详情页书名/可选作者，不跨源混合版本。普通 `search` 仍返回去重结果。
+- 默认 `minimumContentLength = 80`，过滤明显过短的书评/提示页，可按需求调整。这是启发式检查，不保证正文语义正确。
+- 目录和正文分页有去重、循环防护；默认分页上限为 100，超过上限明确报错，不把截断内容当作完整内容。单章 `content` 可传 `maxPages`。
+- `searchTimeout` 是搜索预算，不是整次阅读的总超时；可取消调用任务以终止流程。
+- 未实现 Android Legado 的全部 DSL/Java 桥接。`sourceRegex` 媒体嗅探不支持；`imageDecode`、`payAction` 只保留配置，尚未执行；不绕过付费、验证码或登录限制。复杂 JSONPath、站点专有 JS 和部分登录规则仍可能失败。
+- 无内置持久化正文缓存，阅读进度和离线存储由宿主 App 管理。WebView 请求路径已接入，但本次实网验收仅覆盖普通 HTTP 书源。
+
+2026-09-20 实网验收：内置“穿越小说”书源《三国演义》/罗贯中，取得 120 章目录，前三章正文分别为 4,726、5,762、4,986 个字符，`success=true`、`complete=true`。这是该时点的验证结果，不构成对第三方站点长期可用性的保证。
 
 ## 1. 获取 SDK
 

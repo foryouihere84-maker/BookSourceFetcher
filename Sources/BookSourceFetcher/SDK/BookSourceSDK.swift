@@ -127,6 +127,24 @@ public actor BookSourceSDK {
     }
 
     /// 获取指定书源的书籍详情。
+    public func openBook(_ candidate: BookSourceSearchItem) async throws -> ReadableBook {
+        try await fetcher.openBook(candidate)
+    }
+
+    public func openBook(bookURL: String, sourceURL: String) async throws -> ReadableBook {
+        try await fetcher.openBook(bookURL: bookURL, sourceURL: sourceURL)
+    }
+
+    public func content(book: ReadableBook, chapter: ReadableChapter, maxPages: Int = 100) async throws -> ChapterContent {
+        try await fetcher.fetchContent(book: book, chapter: chapter, maxPages: maxPages)
+    }
+
+    /// Search, resolve and fetch the requested first N chapters, falling back between sources.
+    public func read(_ bookName: String, author: String? = nil, chapterLimit: Int = 1,
+                     searchTimeout: TimeInterval? = 20, minimumContentLength: Int = 80) async throws -> BookReadResponse {
+        try await fetcher.readBook(bookName: bookName, author: author, chapterLimit: chapterLimit, searchTimeout: searchTimeout, minimumContentLength: minimumContentLength)
+    }
+
     public func bookInfo(bookURL: String, sourceName: String) async -> BookInfo? {
         await fetcher.fetchBookInfo(bookURL: bookURL, sourceName: sourceName)
     }

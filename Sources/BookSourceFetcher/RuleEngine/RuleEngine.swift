@@ -72,13 +72,15 @@ enum RuleEngine {
     /// 求值一条规则，返回字符串结果。
     static func evaluate(_ rule: String?, in context: RuleContext) -> String? {
         guard let rule, !rule.isEmpty else { return nil }
+        context.runtime?.bind(context)
         guard let result = parse(rule, in: context) else { return nil }
         return stringify(result)
     }
 
     /// 求值一条规则，返回 RuleResult（供 init 等需要原始结果的场景使用）。
     static func parseRule(_ rule: String, in context: RuleContext) -> RuleResult? {
-        parse(rule, in: context)
+        context.runtime?.bind(context)
+        return parse(rule, in: context)
     }
 
     /// 将 RuleResult 转成字符串。
@@ -94,16 +96,21 @@ enum RuleEngine {
     /// 求值一条规则，返回元素列表（bookList 用）。
     static func evaluateElements(_ rule: String?, in context: RuleContext) -> [Element] {
         guard let rule, !rule.isEmpty else { return [] }
-        guard let result = parse(rule, in: context) else { return [] }
+        context.runtime?.bind(context)
+        let parsed = parse(rule, in: context)
+        guard let result = parsed else { return [] }
         switch result {
         case .elements(let els): return els
-        default: return []
+        default:
+            if context.json == nil, case .elements(let els) = evaluateCSS(rule, in: context) { return els }
+            return []
         }
     }
 
     /// 求值一条规则，返回 JSON 对象列表（bookList 用）。
     static func evaluateJSONList(_ rule: String?, in context: RuleContext) -> [Any] {
         guard let rule, !rule.isEmpty else { return [] }
+        context.runtime?.bind(context)
         guard let result = parse(rule, in: context) else { return [] }
         switch result {
         case .json(let value): return JSONPath.asArray(value)
@@ -130,6 +137,43 @@ enum RuleEngine {
     private static func parseMut(_ rule: String, in context: inout RuleContext) -> RuleResult? {
         var r = rule
 
+        if r.contains("{{") {
+            let outside = r.replacingOccurrences(of: #"\{\{[\s\S]*?\}\}"#, with: "", options: .regularExpression)
+            r = expandTemplate(r, in: context)
+            if !["@js:", "<js>", "##", "&&", "||"].contains(where: { outside.contains($0) }) { return .string(r) }
+        }
+
+        if r.hasPrefix("@CSS:") { return evaluateCSS(String(r.dropFirst(5)), in: context) }
+        if r.hasPrefix("@@") { return evaluateCSS(String(r.dropFirst(2)), in: context) }
+        if r.hasPrefix("@Json:") { return parse(String(r.dropFirst(6)), in: context) }
+
+        // Split scripts before operators/regex: JS itself can contain &&, || and ##.
+        if let marker = r.range(of: "@js:"), marker.lowerBound != r.startIndex {
+            let input = parse(String(r[..<marker.lowerBound]), in: context)
+            let runtime = context.runtime ?? JSRuntime()
+            switch input {
+            case .json(let value): runtime.setObject(value ?? NSNull(), forKeyedSubscript: "result")
+            default: runtime.setVariable("result", value: input.flatMap(stringify) ?? "")
+            }
+            return runtime.run(String(r[marker.upperBound...]), key: context.key, page: context.page, baseURL: context.baseURL?.absoluteString).map { .string($0) }
+        }
+        if let start = r.range(of: "<js>"), let end = r.range(of: "</js>", range: start.upperBound..<r.endIndex) {
+            let runtime = context.runtime ?? JSRuntime()
+            let head = String(r[..<start.lowerBound])
+            if !head.isEmpty {
+                let input = parse(head, in: context)
+                switch input {
+                case .json(let object): runtime.setObject(object ?? NSNull(), forKeyedSubscript: "result")
+                default: runtime.setVariable("result", value: input.flatMap(stringify) ?? "")
+                }
+            }
+            guard let result = runtime.run(String(r[start.upperBound..<end.lowerBound]), key: context.key, page: context.page, baseURL: context.baseURL?.absoluteString) else { return nil }
+            let tail = String(r[end.upperBound...])
+            guard !tail.isEmpty else { return .string(result) }
+            if let object = try? JSONSerialization.jsonObject(with: Data(result.utf8)) { return parse(tail, in: context.scoped(toJSON: object)) }
+            return parse(tail, in: context.scoped(to: try? SwiftSoup.parseBodyFragment(result)))
+        }
+
         // 1. 处理 @js: 前缀（整条规则是 JS）
         if r.hasPrefix("@js:") {
             let js = String(r.dropFirst(4))
@@ -147,21 +191,32 @@ enum RuleEngine {
         // 1c. 处理 @get:{key} 变量读取
         if r.hasPrefix("@get:{") && r.hasSuffix("}") {
             let key = String(r.dropFirst(6).dropLast(1))
-            let value = context.variables[key] ?? ""
+            let value = context.runtime?.storage[key] ?? context.variables[key] ?? ""
             return value.isEmpty ? nil : .string(value)
         }
 
         // 1d. 处理 @put:{key} 变量存储（存值后返回空，但需要级联后续规则）
-        if r.hasPrefix("@put:{") && r.hasSuffix("}") {
-            let inner = String(r.dropFirst(6).dropLast(1))
-            // 格式 key:value
-            if let colonIdx = inner.firstIndex(of: ":") {
-                let key = String(inner[..<colonIdx]).trimmingCharacters(in: .whitespaces)
-                let val = String(inner[inner.index(after: colonIdx)...]).trimmingCharacters(in: .whitespaces)
-                context.variables[key] = val
+        if r.hasPrefix("@put:{"), let end = r.firstIndex(of: "}") {
+            let literal = String(r[r.index(r.startIndex, offsetBy: 5)...end])
+            let runtime = context.runtime ?? JSRuntime()
+            if let entries = runtime.parseObject(literal) {
+                for (key, expression) in entries {
+                    let val = parse("\(expression)", in: context).flatMap(stringify) ?? ""
+                    context.variables[key] = val
+                    runtime.put(key, val)
+                }
+            } else {
+                let inner = String(r[r.index(r.startIndex, offsetBy: 6)..<end])
+                if let colon = inner.firstIndex(of: ":") {
+                    let key = String(inner[..<colon]).trimmingCharacters(in: .whitespaces)
+                    let expression = String(inner[inner.index(after: colon)...]).trimmingCharacters(in: .whitespaces)
+                    let val = parse(expression, in: context).flatMap(stringify) ?? ""
+                    context.variables[key] = val
+                    runtime.put(key, val)
+                }
             }
-            // @put 不产生输出，后续 && 链会继续
-            return .string("")
+            let tail = String(r[r.index(after: end)...])
+            return tail.isEmpty ? .string("") : parseMut(tail, in: &context)
         }
 
         // 2. 处理 <js>...</js> 整条规则
@@ -188,35 +243,17 @@ enum RuleEngine {
         // 4. 处理 && 链式规则（Legado 语义：前一个结果作为下一个的输入上下文）
         if r.contains("&&") {
             let parts = r.components(separatedBy: "&&")
-            var currentContext = context
-            var lastResult: RuleResult = .none
-
-            for part in parts {
-                let trimmed = part.trimmingCharacters(in: .whitespacesAndNewlines)
-                guard !trimmed.isEmpty else { continue }
-                let result = parseMut(trimmed, in: &currentContext)
-                guard let result else { continue }
-                lastResult = result
-
-                // 将结果作为下一个规则的输入上下文
-                switch result {
-                case .elements(let els):
-                    if let first = els.first {
-                        currentContext = currentContext.scoped(to: first)
-                    }
-                case .json(let v):
-                    currentContext = currentContext.scoped(toJSON: v)
-                case .string(let s):
-                    // 将字符串解析为 HTML 片段作为下一个规则的上下文
-                    if let fragment = try? SwiftSoup.parseBodyFragment(s) {
-                        currentContext = currentContext.scoped(to: fragment.body())
-                    }
-                    // 如果不是 HTML，保持原上下文（JSON 场景字符串可能是 JSON）
-                case .none:
-                    break
-                }
+            let results = parts.compactMap { parse($0.trimmingCharacters(in: .whitespacesAndNewlines), in: context) }
+            if results.allSatisfy({ if case .elements = $0 { return true }; return false }) {
+                return .elements(results.flatMap { if case .elements(let els) = $0 { return els }; return [] })
             }
-            return lastResult
+            if results.allSatisfy({ if case .json = $0 { return true }; return false }) {
+                return .json(results.flatMap { result -> [Any] in
+                    if case .json(let value) = result { return JSONPath.asArray(value) }
+                    return []
+                })
+            }
+            return .string(results.compactMap(stringify).joined(separator: "\n"))
         }
 
         // 5. 处理 ## 正则替换
@@ -272,6 +309,9 @@ enum RuleEngine {
         }
 
         // 8. CSS 选择器规则
+        if let element = context.element, ["text", "textNodes", "ownText", "html", "all", "href", "src", "content"].contains(r) {
+            return extractAttribute(r, from: element, in: context)
+        }
         if looksLikeCSS(r) {
             return evaluateCSS(r, in: context)
         }
@@ -306,7 +346,7 @@ enum RuleEngine {
         // 包含 @属性 指令，或以 . # 开头，或是标签选择器
         if rule.contains("@") { return true }
         let first = rule.first ?? " "
-        if first == "." || first == "#" { return true }
+        if first == "." || first == "#" || first == "[" { return true }
         // tag.class 形式，如 a.1、li.2
         if rule.range(of: #"^[a-zA-Z][a-zA-Z0-9]*[\.#]"#, options: .regularExpression) != nil {
             return true
@@ -328,10 +368,27 @@ enum RuleEngine {
         let attribute = String(rule[rule.index(after: atIndex)...])
 
         // 属性可能是嵌套选择器（如 .soft_info_r@a.0@text 里的 a.0），递归处理
-        let selected = selectElements(selector, in: context)
-        guard case .elements(let els) = selected, let first = els.first else { return nil }
-
-        return extractAttribute(attribute, from: first, in: context)
+        let selected: RuleResult? = selector.isEmpty ? context.element.map { .elements([$0]) } : selectElements(selector, in: context)
+        guard case .elements(let els) = selected, !els.isEmpty else { return nil }
+        let terminal = ["text", "textNodes", "ownText", "html", "all", "href", "src", "data-src", "class", "id", "value", "content"]
+        if terminal.contains(attribute) {
+            let values = els.compactMap { extractAttribute(attribute, from: $0, in: context).flatMap(stringify) }
+            return values.isEmpty ? nil : .string(values.joined(separator: "\n"))
+        }
+        if !attribute.contains("@") {
+            let children = els.flatMap { element -> [Element] in
+                if case .elements(let found) = selectElements(attribute, in: context.scoped(to: element)) { return found }
+                return []
+            }
+            if !children.isEmpty { return .elements(children) }
+            let values = els.compactMap { try? $0.attr(attribute) }.filter { !$0.isEmpty }
+            return values.isEmpty ? nil : .string(values.joined(separator: "\n"))
+        }
+        let results = els.compactMap { evaluateCSS(attribute, in: context.scoped(to: $0)) }
+        if results.allSatisfy({ if case .elements = $0 { return true }; return false }) {
+            return .elements(results.flatMap { if case .elements(let elements) = $0 { return elements }; return [] })
+        }
+        return .string(results.compactMap(stringify).joined(separator: "\n"))
     }
 
     /// 用 CSS 选择器选取元素。支持逗号多选择器、tag.n 索引语法、空格后代、> 子元素。
@@ -344,7 +401,10 @@ enum RuleEngine {
         // 逗号多选择器：取第一个有结果的
         let selectors = selectorStr.components(separatedBy: ",")
         for sel in selectors {
-            let s = sel.trimmingCharacters(in: .whitespacesAndNewlines)
+            var s = sel.trimmingCharacters(in: .whitespacesAndNewlines)
+            if s.hasPrefix("id.") { s = "#" + s.dropFirst(3) }
+            else if s.hasPrefix("class.") { s = "." + s.dropFirst(6) }
+            else if s.hasPrefix("tag.") { s = String(s.dropFirst(4)) }
             guard !s.isEmpty else { continue }
 
             // 处理 Legado 的 "tag.n" 索引语法（n 为 0-based），如 "a.1"、"td.2"
@@ -555,7 +615,7 @@ enum RuleEngine {
     private static func expandTemplate(_ rule: String, in context: RuleContext) -> String {
         guard rule.contains("{{") else { return rule }
         var result = rule
-        let pattern = #"\{\{(.*?)\}\}"#
+        let pattern = #"\{\{([\s\S]*?)\}\}"#
         guard let regex = try? NSRegularExpression(pattern: pattern, options: []) else { return rule }
         let nsRange = NSRange(result.startIndex..<result.endIndex, in: result)
         let matches = regex.matches(in: result, options: [], range: nsRange)
@@ -584,15 +644,13 @@ enum RuleEngine {
         default:
             // {{$.id}} 从 JSON 取值
             if token.hasPrefix("$") {
-                let value = JSONPath.evaluate(token, root: context.json ?? context.jsonRoot ?? NSNull())
-                if let s = JSONPath.stringify(value) { return s }
-                return ""
+                return parse(token, in: context).flatMap(stringify) ?? ""
             }
             // {{cookie.removeCookie(...)}} 等书源扩展，忽略
             if token.contains("cookie.") || token.contains("source.") {
                 return ""
             }
-            return ""
+            return JSRunner.run(token, context: context) ?? ""
         }
     }
 }

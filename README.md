@@ -8,7 +8,26 @@
 ./Scripts/build-sdk.sh
 ```
 
-本项目只实现 App 当前需要的链路：搜索书名、读取简介、读取目录、解析/解密封面 URL。它不是 Android Legado 的桥接服务，也不依赖 Android 运行时；书源 JSON 在 App 内解码，页面请求和规则执行都在本机完成。
+本项目支持搜索书名、读取详情、分页目录和章节正文，以及解析/解密封面 URL。它不是 Android Legado 的桥接服务，也不依赖 Android 运行时；书源 JSON 在 App 内解码，页面请求和规则执行都在本机完成。规则兼容范围和完整阅读接口见下文，不保证所有 Legado 书源可用。
+
+## 获取可阅读的书
+
+```swift
+let sdk = try BookSourceSDK.bundled()
+let result = try await sdk.read("三国演义", author: "罗贯中", chapterLimit: 3)
+if result.complete, let book = result.book {
+    print(book.name, book.chapters.count)
+    for chapter in result.contents { print(chapter.chapter.title, chapter.content) }
+}
+```
+
+`read` 会尝试同名候选书源，详情或正文失败时换源，不跨源拼接章节。默认验证首章；`success` 表示至少取得一章正文，`complete` 表示本次选定章节全部取得，并非整本下载完成。完整字段、按需加载与限制见 [SDK 接入文档](SDK_INTEGRATION.md#完整阅读接口)。
+
+```bash
+swift run fetcher-cli --read "三国演义" --chapters 3
+# 已知详情地址时：
+swift run fetcher-cli --read-url "详情页URL" "书源bookSourceUrl" "书源JSON路径" --chapters 3
+```
 
 ## 功能
 
@@ -87,6 +106,24 @@ swift build
 ```
 
 ## 架构
+
+源码按职责分目录，仍属于同一个 Swift Package 模块，公开 API 和 import 方式不变：
+
+```text
+Sources/BookSourceFetcher/
+├── SDK/           # 对外 SDK 门面与配置
+├── Models/        # 书源、搜索结果、书籍及章节数据模型
+├── Sources/       # 书源配置加载
+├── Fetching/      # 多源协调、搜索、详情、目录与正文抓取
+├── RuleEngine/    # 规则 DSL、JavaScript、JSONPath、XPath
+├── Networking/    # 请求构建、Cookie、登录态与 WebView
+├── Concurrency/   # 并发控制、限流与熔断
+├── Providers/     # OpenLibrary 等独立数据提供方
+├── Utilities/     # 书名归一化与封面解码
+└── Resources/     # 内置书源 JSON
+```
+
+命令行入口保留在 `Sources/fetcher-cli/`，测试保留在 `Tests/BookSourceFetcherTests/`。SwiftPM 自动递归发现源码，无需逐文件配置路径。
 
 - `PaquBookSource` / `SearchRule` ... — 书源模型（Legado 格式 Codable，含 loginUrl/loginUi/loginCheckJs/coverDecodeJs/jsLib 字段）
 - `PaquBookSourceLoader` — 下载/解析书源 JSON

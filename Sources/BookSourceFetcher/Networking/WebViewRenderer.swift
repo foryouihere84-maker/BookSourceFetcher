@@ -26,6 +26,7 @@ public final class WebViewRenderer: NSObject, WKNavigationDelegate {
     private var timeoutWorkItem: DispatchWorkItem?
     private var renderDelay: TimeInterval = 1.5
     private var waitForSelector: String?
+    public private(set) var finalURL: URL?
 
     public override init() {
         super.init()
@@ -56,6 +57,13 @@ public final class WebViewRenderer: NSObject, WKNavigationDelegate {
                   timeout: timeout, renderDelay: renderDelay, waitForSelector: waitForSelector)
     }
 
+    /// Preserve caller headers, POST body and cookies when a Legado URL requests WebView rendering.
+    public func load(request: URLRequest, js: String? = nil, timeout: TimeInterval = 20) async -> String? {
+        guard let url = request.url else { return nil }
+        return await run(url: url.absoluteString, js: js ?? "document.documentElement.outerHTML",
+                         timeout: timeout, renderDelay: 1.5, waitForSelector: nil, request: request)
+    }
+
     // MARK: - 内部
 
     private func run(
@@ -63,13 +71,15 @@ public final class WebViewRenderer: NSObject, WKNavigationDelegate {
         js: String,
         timeout: TimeInterval,
         renderDelay: TimeInterval,
-        waitForSelector: String?
+        waitForSelector: String?,
+        request: URLRequest? = nil
     ) async -> String? {
         guard let target = URL(string: url) else { return nil }
         self.renderDelay = renderDelay
         self.waitForSelector = waitForSelector
 
-        return await withCheckedContinuation { cont in
+        return await withTaskCancellationHandler(operation: {
+          await withCheckedContinuation { cont in
             continuation = cont
             pendingJS = js
 
@@ -87,8 +97,11 @@ public final class WebViewRenderer: NSObject, WKNavigationDelegate {
             timeoutWorkItem = item
             DispatchQueue.main.asyncAfter(deadline: .now() + timeout, execute: item)
 
-            wv.load(URLRequest(url: target))
-        }
+            finalURL = target
+            wv.load(request ?? URLRequest(url: target))
+            if Task.isCancelled { finish(nil) }
+          }
+        }, onCancel: { Task { @MainActor in self.finish(nil) } })
     }
 
     private func finish(_ result: String?) {
@@ -96,6 +109,8 @@ public final class WebViewRenderer: NSObject, WKNavigationDelegate {
         continuation = nil
         timeoutWorkItem?.cancel()
         timeoutWorkItem = nil
+        finalURL = webView?.url ?? finalURL
+        webView?.stopLoading()
         webView?.navigationDelegate = nil
         webView = nil
         pendingJS = nil

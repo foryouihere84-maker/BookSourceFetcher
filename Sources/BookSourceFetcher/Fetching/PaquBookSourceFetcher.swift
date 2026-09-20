@@ -138,7 +138,7 @@ public struct PaquBookSourceFetcher {
     private static func mapToFetchItem(_ item: ParsedBookItem) -> BookFetchItem? {
         guard item.isValid else { return nil }
         let author = (item.author ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
-        return BookFetchItem(
+        var result = BookFetchItem(
             title: item.title ?? "",
             author: author.isEmpty ? nil : author,
             intro: item.intro,
@@ -147,6 +147,13 @@ public struct PaquBookSourceFetcher {
             coverUrl: item.coverUrl,
             provider: item.provider
         )
+        result.bookUrl = item.bookUrl
+        result.sourceUrl = item.sourceUrl
+        result.kind = item.kind
+        result.wordCount = item.wordCount
+        result.latestChapterTitle = item.latestChapterTitle
+        result.variables = item.variables
+        return result
     }
 
     /// 搜索后继续执行 ruleBookInfo 和 ruleToc，供 iOS 直接取得简介、封面和目录。
@@ -219,6 +226,109 @@ public struct PaquBookSourceFetcher {
     }
 
     // MARK: - 书籍详情页获取
+
+    /// Resolve a selected search candidate without losing its source identity or rule variables.
+    public func openBook(_ candidate: BookFetchItem) async throws -> ReadableBook {
+        guard let url = candidate.bookUrl else { throw BookReadingError.empty("书籍详情地址") }
+        let source = try readingSource(url: candidate.sourceUrl, name: candidate.provider)
+        let book = ReadableBook(bookUrl: url, sourceUrl: source.bookSourceUrl ?? "", sourceName: source.bookSourceName,
+            name: candidate.title, author: candidate.author, intro: candidate.intro, coverUrl: candidate.coverUrl,
+            kind: candidate.kind, wordCount: candidate.wordCount, latestChapterTitle: candidate.latestChapterTitle,
+            variables: candidate.variables ?? [:])
+        return try await readingPipeline(source, variables: book.variables).resolve(book)
+    }
+
+    /// Open a known detail URL, retaining the full metadata and chapter model.
+    public func openBook(bookURL: String, sourceURL: String) async throws -> ReadableBook {
+        let source = try readingSource(url: sourceURL, name: nil)
+        return try await readingPipeline(source, variables: [:]).resolve(
+            ReadableBook(bookUrl: bookURL, sourceUrl: sourceURL, sourceName: source.bookSourceName))
+    }
+
+    public func fetchContent(book: ReadableBook, chapter: ReadableChapter, maxPages: Int = 100) async throws -> ChapterContent {
+        let source = try readingSource(url: book.sourceUrl, name: nil)
+        return try await readingPipeline(source, variables: book.variables, maxPages: maxPages).content(book: book, chapter: chapter)
+    }
+
+    /// Try exact-title candidates in source priority order. Success requires actual chapter text.
+    /// Chapter content is never combined across editions/sources. A partial result stays with its book.
+    public func readBook(bookName: String, author: String? = nil, chapterLimit: Int = 1,
+                         searchTimeout: TimeInterval? = 20, minimumContentLength: Int = 80) async throws -> BookReadResponse {
+        guard !bookName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty, chapterLimit > 0 else {
+            throw BookReadingError.empty("书名或请求章节数量")
+        }
+        let items = await searchAllSources(key: bookName, overallTimeout: searchTimeout)
+        try Task.checkCancellation()
+        let normalized = BookTitleNormalizer.normalize(bookName)
+        let candidates = items.filter {
+            BookTitleNormalizer.normalize($0.title ?? "") == normalized &&
+            (author == nil || $0.author?.trimmingCharacters(in: .whitespacesAndNewlines) == author?.trimmingCharacters(in: .whitespacesAndNewlines))
+        }.sorted { lhs, rhs in
+            let left = sources.firstIndex { $0.bookSourceUrl == lhs.sourceUrl && $0.bookSourceName == lhs.provider } ?? Int.max
+            let right = sources.firstIndex { $0.bookSourceUrl == rhs.sourceUrl && $0.bookSourceName == rhs.provider } ?? Int.max
+            return left == right ? (lhs.bookUrl ?? "") < (rhs.bookUrl ?? "") : left < right
+        }
+        var attempts: [BookReadAttempt] = []
+        var bestBook: ReadableBook?
+        var bestContents: [ChapterContent] = []
+        var requested = chapterLimit
+        var seen = Set<String>()
+        for item in candidates {
+            try Task.checkCancellation()
+            guard let candidate = Self.mapToFetchItem(item), seen.insert("\(item.sourceUrl ?? item.provider)|\(item.bookUrl ?? "")").inserted else { continue }
+            do {
+                let book = try await openBook(candidate)
+                guard BookTitleNormalizer.normalize(book.name) == normalized,
+                      author == nil || book.author?.trimmingCharacters(in: .whitespacesAndNewlines) == author?.trimmingCharacters(in: .whitespacesAndNewlines) else {
+                    throw BookReadingError.empty("详情页书名或作者与请求不匹配")
+                }
+                if bestBook == nil { bestBook = book }
+                let chapters = Array(book.chapters.filter { !$0.isVolume }.prefix(chapterLimit))
+                var contents: [ChapterContent] = []
+                for chapter in chapters {
+                    do {
+                        let content = try await fetchContent(book: book, chapter: chapter)
+                        guard content.content.count >= max(1, minimumContentLength) else {
+                            throw BookReadingError.empty("正文未达到最小长度 \(max(1, minimumContentLength))，可能为封面、提示或书评")
+                        }
+                        contents.append(content)
+                    }
+                    catch {
+                        try Task.checkCancellation()
+                        attempts.append(BookReadAttempt(sourceUrl: book.sourceUrl, bookUrl: book.bookUrl,
+                            message: "\(chapter.title)：\(error.localizedDescription)"))
+                    }
+                }
+                if contents.count == chapters.count && !contents.isEmpty {
+                    return BookReadResponse(book: book, contents: contents, requestedChapters: chapters.count, complete: true, attempts: attempts)
+                }
+                if contents.count > bestContents.count {
+                    bestBook = book; bestContents = contents; requested = chapters.count
+                }
+            } catch {
+                try Task.checkCancellation()
+                attempts.append(BookReadAttempt(sourceUrl: item.sourceUrl ?? item.provider, bookUrl: item.bookUrl, message: error.localizedDescription))
+            }
+        }
+        if candidates.isEmpty {
+            attempts.append(BookReadAttempt(sourceUrl: "", bookUrl: nil, message: "搜索预算内没有取得匹配书名和作者的候选；可能无结果、书源不可访问或搜索超时"))
+        }
+        return BookReadResponse(book: bestBook, contents: bestContents, requestedChapters: requested, complete: false, attempts: attempts)
+    }
+
+    private func readingSource(url: String?, name: String?) throws -> PaquBookSource {
+        let matches = sources.filter { source in
+            if let url { return source.bookSourceUrl == url }
+            return source.bookSourceName == name
+        }
+        guard matches.count == 1, let source = matches.first else { throw BookReadingError.sourceNotFound(url ?? name ?? "") }
+        return source
+    }
+
+    private func readingPipeline(_ source: PaquBookSource, variables: [String: String], maxPages: Int = 100) -> BookReadingPipeline {
+        BookReadingPipeline(source: source, session: session, cookies: cookieStore,
+                            limiter: rateLimiter, variables: variables, maxPages: maxPages)
+    }
 
     /// 获取书籍详情页信息（书名、作者、简介、封面、目录 URL 等）。
     /// - Parameters:
@@ -523,16 +633,7 @@ public struct PaquBookSourceFetcher {
 
         return order.compactMap { titleKey -> BookFetchItem? in
             guard let item = bestByTitle[titleKey] else { return nil }
-            let author = (item.author ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
-            return BookFetchItem(
-                title: item.title ?? "",
-                author: author.isEmpty ? nil : author,
-                intro: item.intro,
-                isbn: nil,
-                publisher: nil,
-                coverUrl: item.coverUrl,
-                provider: item.provider
-            )
+            return Self.mapToFetchItem(item)
         }
     }
 

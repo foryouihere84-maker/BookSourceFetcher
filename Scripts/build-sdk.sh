@@ -3,7 +3,7 @@ set -euo pipefail
 
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 package_dir="$(cd "${script_dir}/.." && pwd)"
-version="$(sed -n 's/.*public static let version = "\([^"]*\)".*/\1/p' "${package_dir}/Sources/BookSourceFetcher/BookSourceSDK.swift")"
+version="$(sed -n 's/.*public static let version = "\([^"]*\)".*/\1/p' "${package_dir}/Sources/BookSourceFetcher/SDK/BookSourceSDK.swift")"
 if [[ $# -gt 0 ]]; then
     version="$1"
 fi
